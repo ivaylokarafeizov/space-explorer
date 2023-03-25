@@ -1,0 +1,61 @@
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-nav {
+    z-index: 5;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(39, 86, 187);
+}
+
+.space-span {
+    position: relative;
+    top: -2px;
+    font-family: 'Anonymous Pro', monospace;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.explorer-span {
+    color: #000000;
+    padding-left: 5px;
+    letter-spacing: normal;
+    font-size: 32px;
+    font-family: 'Permanent Marker', 'cursive';
+}
+
+.signIn-btn {
+    padding: 5px 20px;
+    border: none;
+    background-color: #071941;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 400ms ease-in-out;
+}
+
+.signIn-btn:hover {
+    background-color: #a7c3d9;
+    color: black;
+}
+
+.header-nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.header-nav ul li a:hover {
+    color: #071941;
+}

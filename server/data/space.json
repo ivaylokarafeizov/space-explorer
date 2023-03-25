@@ -1,0 +1,376 @@
+{
+    "astronauts": {
+        "fadc2287-b952-4692-92f1-002e549f3b30": {
+            "name": "Yuri Gagarin",
+            "image": "https://c4.wallpaperflare.com/wallpaper/442/657/197/yuri-gagarin-astronaut-ussr-space-wallpaper-preview.jpg",
+            "description": "Yuri Gagarin was the first human to journey into outer space. Traveling in the Vostok 1 capsule, he completed one orbit of Earth on 12 April 1961. By achieving this major milestone in the Space Race he became an international celebrity.",
+            "_id": "fadc2287-b952-4692-92f1-002e549f3b30"
+        },
+        "788002b5-33cc-4d79-8d62-37ec556d07f0": {
+            "name": "Neil Armstrong",
+            "image": "http://media3.s-nbcnews.com/i/MSNBC/Components/Slideshows/_production/ss-120825-neil-armstrong/ss-120829-neil-armstrong-tease.jpg",
+            "description": "Neil Armstrong was a NASA astronaut and aeronautical engineer. He famously became the first person to walk on the moon on July 20, 1969 during Apollo 11. Armstrong also flew on NASA's Gemini 8 mission in 1966.",
+            "_id": "788002b5-33cc-4d79-8d62-37ec556d07f0"
+        },
+        "0817944d-490e-4367-91b1-93a93b56315e": {
+            "name": "Alan Shepard",
+            "image": "https://share.america.gov/wp-content/uploads/2021/04/Alan-Shepard-space-NASA-AP_6105050352.jpg",
+            "description": "Alan Shepard was the first American in space. He is famous for being one of only 12 individuals who also walked on the moon. Alan Shepard was involved in 2 space missions, and famously was the first person to hit a golf ball on the moon.",
+            "_id": "0817944d-490e-4367-91b1-93a93b56315e"
+        },
+        "8de5aa0d-4e0e-4028-ab27-8376215d1e60": {
+            "name": "Buzz Aldrin",
+            "image": "https://wehackthemoon.com/sites/default/files/styles/hero_small_2x_1534x_/public/2019-01/s69_31743.jpg?h=84f8a06a&itok=nj7SZw0y",
+            "description": "Buzz Aldrin, original name Edwin Eugene Aldrin, was the second person to set foot on the Moon. A graduate of the U.S. Military Academy, West Point, New York (1951), Aldrin became an air force pilot.",
+            "_id": "8de5aa0d-4e0e-4028-ab27-8376215d1e60"
+        },
+        "d7a76531-3868-4e52-a483-4dba30d77397": {
+            "name": "John Glenn",
+            "image": "https://static01.nyt.com/images/2013/06/11/obituaries/Glenn-John-obit-slide-PCW2/Glenn-John-obit-slide-PCW2-jumbo.jpg",
+            "description": "Colonel John Herschel Glenn was a United States Marine Corps aviator, engineer, astronaut, businessman, and politician. He was the first American to orbit the Earth, circling it three times in 1962.",
+            "_id": "d7a76531-3868-4e52-a483-4dba30d77397"
+        },
+        "83d71e63-361d-4194-a0b9-5f05ac978caa": {
+            "name": "Valentina Tereshkova",
+            "image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/17C63/production/_85597379_c0110260-cosmonaut_valentina_tereshkova-spl.jpg",
+            "description": "Valentina Vladimirovna Tereshkova, Soviet cosmonaut, the first woman to travel into space. On June 16, 1963, she was launched in the spacecraft Vostok 6, which completed 48 orbits in 71 hours.",
+            "_id": "83d71e63-361d-4194-a0b9-5f05ac978caa"
+        },
+        "8acbcef3-7ff9-4419-948f-e930c85127dd": {
+            "name": "Sally Ride",
+            "image": "https://i.ytimg.com/vi/4-XUgIF7RcU/maxresdefault.jpg",
+            "description": "Sally Ride became the first American woman in space on the STS-7 space shuttle mission. She started Sally Ride Science to encourage girls to be interested in science, technology and etc.",
+            "_id": "8acbcef3-7ff9-4419-948f-e930c85127dd"
+        },
+        "13958c4d-0b51-483f-bf29-bafd59c6735f": {
+            "name": "Chris Hadfield",
+            "image": "https://media.npr.org/assets/img/2013/10/30/chris-hadfield_nasa-3-_custom-37fddc2dda2e798e67063710df446c20a5e8b0ae-s1100-c50.jpg",
+            "description": "Chris Austin Hadfield is a Canadian retired astronaut, engineer, fighter pilot, and musician. The first Canadian to perform extravehicular activity in outer space, also served as commander of the ISS.",
+            "_id": "13958c4d-0b51-483f-bf29-bafd59c6735f"
+        },
+        "4f209bf1-3fae-421c-acaf-ceb6a8e1ba6d": {
+            "name": "Christa McAuliffe",
+            "image": "https://nationaltoday.com/wp-content/uploads/2021/12/Christa-McAuliffe-Day-.jpg",
+            "description": "Sharon Christa McAuliffe was an American teacher and astronaut from Concord, New Hampshire, who was killed on the Space Shuttle Challenger on mission STS-51-L where she was serving as a payload specialist.",
+            "_id": "4f209bf1-3fae-421c-acaf-ceb6a8e1ba6d"
+        },
+        "c0f07695-e173-471f-a9c3-77bb1a21d589": {
+            "name": "Mae Jemison",
+            "image": "https://spacecentre.co.uk/wp-content/uploads/2021/10/ksc-92pc-1881.jpeg",
+            "description": "As a doctor, engineer, and NASA astronaut, Mae Jemison has always reached for the stars. In 1992, she became the first African American woman to travel in space. She has also written several books.",
+            "_id": "c0f07695-e173-471f-a9c3-77bb1a21d589"
+        },
+        "dfc4347b-84f0-4b23-882d-0dd107b688cc": {
+            "name": "Scott Kelly",
+            "image": "https://www.thoughtco.com/thmb/szuhz2beQziC9nkpSMZwLR782go=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/astronauts-scott-kelly-and-mikhail-kornienko-give-a-press-confence-at-unesco-in-paris-460638842-5c51470fc9e77c00016f3884.jpg",
+            "description": "Scott Kelly is a former military fighter pilot, an engineer, a retired astronaut. A veteran of four space flights, he commanded the ISS on three expeditions and was a member of the yearlong mission to the ISS.",
+            "_id": "dfc4347b-84f0-4b23-882d-0dd107b688cc"
+        },
+        "cec7d878-12a0-47c9-bc7f-942eae6ea8f9": {
+            "name": "Tim Peake",
+            "image": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2009/11/timothy_peake3/17900680-2-eng-GB/Timothy_Peake.jpg",
+            "description": "Timothy Nigel Peake, British astronaut and military officer who in 2016, while on a mission to the International Space Station (ISS), became the first official British astronaut to walk in space.",
+            "_id": "cec7d878-12a0-47c9-bc7f-942eae6ea8f9"
+        }
+    },
+    "solarSystem": {
+        "777f4a89-32da-41ad-9982-4e47e786b8ce": {
+            "name": "Sun",
+            "image": "https://solarsystem.nasa.gov/system/stellar_items/image_files/1_sun.jpg",
+            "description": "The Sun is a yellow dwarf star, a hot ball of glowing gases at the heart of our solar system. Its gravity holds everything from the biggest planets to tiny debris in its orbit.",
+            "age": "4.5 billion years",
+            "yearLength": "230 Million Earth Years",
+            "diameter": "1.3927 million km",
+            "moons": "Stars don't have moons, so the Sun has none.",
+            "_id": "777f4a89-32da-41ad-9982-4e47e786b8ce"
+        },
+        "166af5c7-5752-40ca-8cd3-a06689d42ded": {
+            "name": "Mercury",
+            "image": "https://wallpapercave.com/wp/wp4047236.jpg",
+            "description": "Mercury — the smallest planet in our solar system and closest to the Sun — is only slightly larger than Earth's Moon. Mercury is the fastest planet, zipping around the Sun every 88 Earth days.",
+            "age": "4.503 billion years",
+            "yearLength": "88 Earth Days",
+            "diameter": "4,879.4 km",
+            "moons": 0,
+            "_id": "166af5c7-5752-40ca-8cd3-a06689d42ded"
+        },
+        "7f2614f9-ad38-476a-a638-b75626f96117": {
+            "name": "Venus",
+            "image": "https://static01.nyt.com/images/2020/09/14/science/14SCI-VENUS1-alt/14SCI-VENUS1-alt-superJumbo.jpg",
+            "description": "Venus spins slowly in the opposite direction from most planets. A thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system.",
+            "age": "4.503 billion years",
+            "yearLength": "225 Earth Days",
+            "diameter": "12,104 km",
+            "moons": 0,
+            "_id": "7f2614f9-ad38-476a-a638-b75626f96117"
+        },
+        "a941433d-e65b-423d-9230-8f3b0799e90c": {
+            "name": "Earth",
+            "image": "https://i.natgeofe.com/n/f5453fe7-0483-42f1-b3e7-160e1d2019f8/940_4x3.jpg",
+            "description": "Earth — our home planet — is the only place we know of so far that's inhabited by living things. It's also the only planet in our solar system with liquid water on the surface.",
+            "age": "4.543 billion years",
+            "yearLength": "365.25 Days",
+            "diameter": "12,742 km",
+            "moons": 1,
+            "_id": "a941433d-e65b-423d-9230-8f3b0799e90c"
+        },
+        "edbc820d-bf6e-4e8b-9f49-b523db70e81c": {
+            "name": "Mars",
+            "image": "https://images3.alphacoders.com/217/thumb-1920-217475.jpg",
+            "description": "Mars is a dusty, cold, desert world with a very thin atmosphere. There is strong evidence Mars was — billions of years ago — wetter and warmer, with a thicker atmosphere.",
+            "age": "4.603 billion years",
+            "yearLength": "1.88 Earth Years",
+            "diameter": "6,779 km",
+            "moons": 2,
+            "_id": "edbc820d-bf6e-4e8b-9f49-b523db70e81c"
+        },
+        "dd3ff3f1-efc6-4379-9706-becc7aba6226": {
+            "name": "Jupiter",
+            "image": "https://cdn.mos.cms.futurecdn.net/Cvzdqd7AxLzjzQNoZaQVhC.jpg",
+            "description": "Jupiter is more than twice as massive than the other planets of our solar system combined. The giant planet's Great Red spot is a centuries-old storm bigger than Earth.",
+            "age": "4.603 billion years",
+            "yearLength": "11.86 Earth Years",
+            "diameter": "139,820 km",
+            "moons": 79,
+            "_id": "dd3ff3f1-efc6-4379-9706-becc7aba6226"
+        },
+        "27bf1999-22ae-4fad-a9e5-18a35cce1e0d": {
+            "name": "Saturn",
+            "image": "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2F0dXJufGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+            "description": "Adorned with a dazzling, complex system of icy rings, Saturn is unique in our solar system. The other giant planets have rings, but none are as spectacular as Saturn's.",
+            "age": "4.503 billion years",
+            "yearLength": "29.45 Earth Years",
+            "diameter": "116,460 km",
+            "moons": 62,
+            "_id": "27bf1999-22ae-4fad-a9e5-18a35cce1e0d"
+        },
+        "2af485ee-8757-4f9a-9a14-6b6e49d5be1c": {
+            "name": "Uranus",
+            "image": "https://images.unsplash.com/photo-1614732484003-ef9881555dc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXJhbnVzfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+            "description": "Uranus — seventh planet from the Sun — rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin on its side.",
+            "age": "4.503 billion years",
+            "yearLength": "84 Earth Years",
+            "diameter": "50,724 km",
+            "moons": 27,
+            "_id": "2af485ee-8757-4f9a-9a14-6b6e49d5be1c"
+        },
+        "bb775b12-df41-4b6b-9de3-80f6177410df": {
+            "name": "Neptune",
+            "image": "https://cdn.mos.cms.futurecdn.net/PezBzd9Fehsq9XWgWMauVV.jpg",
+            "description": "Neptune — the eighth and most distant major planet orbiting our Sun — is dark, cold and whipped by supersonic winds. It was the first planet located through mathematical calculations, rather than by telescope.",
+            "age": "4.503 billion years",
+            "yearLength": "164.81 Earth Years",
+            "diameter": "49,244 km",
+            "moons": 14,
+            "_id": "bb775b12-df41-4b6b-9de3-80f6177410df"
+        },
+        "08366737-52e1-4c0c-a0fa-0c348f865a7d": {
+            "name": "Pluto",
+            "image": "https://cdn.mos.cms.futurecdn.net/DoZSMXF87kCuzbymsuEFHo.jpg",
+            "description": "Pluto is a complex world of ice mountains and frozen plains. Once considered the ninth planet, Pluto is the largest member of the Kuiper Belt and the best known of a new class of worlds called dwarf planets.",
+            "age": "4.6 billion years",
+            "yearLength": "248.89 Earth Years",
+            "diameter": "2,376.6 km",
+            "moons": 5,
+            "_id": "08366737-52e1-4c0c-a0fa-0c348f865a7d"
+        }
+    },
+    "details": {
+        "777f4a89-32da-41ad-9982-4e47e786b8ce": {
+            "image": "https://solarsystem.nasa.gov/system/stellar_items/image_files/1_sun.jpg",
+            "title": "Sun",
+            "introduction": "The Sun is a 4.5 billion-year-old yellow dwarf star - a hot glowing ball of hydrogen and helium - at the center of our solar system. It's about 93 million miles (150 million kilometers) from Earth and it's our solar system's only star. Without the Sun's energy, life as we know it could not exist on our home planet. From our vantage point on Earth, the Sun may appear like an unchanging source of light and heat in the sky. But the Sun is a dynamic star, constantly changing and sending energy out into space. The science of studying the Sun and its influence throughout the solar system is called heliophysics. The Sun is the largest object in our solar system. Its diameter is about 865,000 miles (1.4 million kilometers). Its gravity holds the solar system together, keeping everything from the biggest planets to the smallest bits of debris in orbit around it. Even though the Sun is the center of our solar system and essential to our survival, it's only an average star in terms of its size. Stars up to 100 times larger have been found. And many solar systems have more than one star. By studying our Sun, scientists can better understand the workings of distant stars. The hottest part of the Sun is its core, where temperatures top 27 million °F (15 million °C). The part of the Sun we call its surface - the photosphere - is a relatively cool 10,000 °F (5,500 °C). In one of the Sun's biggest mysteries, the Sun's outer atmosphere, the corona, gets hotter the farther it stretches from the surface. The corona reaches up to 3.5 million °F (2 million °C) - much, much hotter than the photosphere.",
+            "namesake": "The Sun has been called by many names. The Latin word for Sun is “sol,” which is the main adjective for all things Sun-related: solar. Helios, the Sun god in ancient Greek mythology, lends his name to many Sun-related terms as well, such as heliosphere and helioseismology.",
+            "orbitAndRotation": "The Sun orbits the center of the Milky Way, bringing with it the planets, asteroids, comets, and other objects in our solar system. Our solar system is moving with an average velocity of 450,000 miles per hour (720,000 kilometers per hour). But even at this speed, it takes about 230 million years for the Sun to make one complete trip around the Milky Way. The Sun rotates on its axis as it revolves around the galaxy. Its spin has a tilt of 7.25 degrees with respect to the plane of the planets' orbits. Since the Sun is not solid, different parts rotate at different rates. At the equator, the Sun spins around once about every 25 Earth days, but at its poles, the Sun rotates once on its axis every 36 Earth days.",
+            "sizeAndDistance": "Our Sun is a medium-sized star with a radius of about 435,000 miles (700,000 kilometers). Many stars are much larger - but the Sun is far more massive than our home planet: it would take more than 330,000 Earths to match the mass of the Sun, and it would take 1.3 million Earths to fill the Sun's volume. The Sun is about 93 million miles (150 million kilometers) from Earth. Its nearest stellar neighbor is the Alpha Centauri triple star system: red dwarf star Proxima Centauri is 4.24 light-years away, and Alpha Centauri A and B - two sunlike stars orbiting each other - are 4.37 light-years away. A light-year is the distance light travels in one year, which equals about 6 trillion miles (9.5 trillion kilometers).",
+            "moons": "As a star, the Sun doesn't have any moons, but the planets and their moons orbit the Sun.",
+            "formation": "The Sun formed about 4.6 billion years ago in a giant, spinning cloud of gas and dust called the solar nebula. As the nebula collapsed under its own gravity, it spun faster and flattened into a disk. Most of the nebula's material was pulled toward the center to form our Sun, which accounts for 99.8% of our solar system's mass. Much of the remaining material formed the planets and other objects that now orbit the Sun. (The rest of the leftover gas and dust was blown away by the young Sun's early solar wind.) Like all stars, our Sun will eventually run out of energy. When it starts to die, the Sun will expand into a red giant star, becoming so large that it will engulf Mercury and Venus, and possibly Earth as well. Scientists predict the Sun is a little less than halfway through its lifetime and will last another 5 billion years or so before it becomes a white dwarf."
+        },
+        "166af5c7-5752-40ca-8cd3-a06689d42ded": {
+            "image": "https://wallpapercave.com/wp/wp4047236.jpg",
+            "title": "Mercury",
+            "introduction": "The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earth's Moon. From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would be as much as seven times brighter. Mercury's surface temperatures are both extremely hot and cold. Because the planet is so close to the Sun, day temperatures can reach highs of 800°F (430°C). Without an atmosphere to retain that heat at night, temperatures can dip as low as -290°F (-180°C). Despite its proximity to the Sun, Mercury is not the hottest planet in our solar system - that title belongs to nearby Venus, thanks to its dense atmosphere. But Mercury is the fastest planet, zipping around the Sun every 88 Earth days.",
+            "namesake": "Mercury is appropriately named for the swiftest of the ancient Roman gods.",
+            "orbitAndRotation": "Mercury's highly eccentric, egg-shaped orbit takes the planet as close as 29 million miles (47 million kilometers) and as far as 43 million miles (70 million kilometers) from the Sun. It speeds around the Sun every 88 days, traveling through space at nearly 29 miles (47 kilometers) per second, faster than any other planet. Mercury spins slowly on its axis and completes one rotation every 59 Earth days. But when Mercury is moving fastest in its elliptical orbit around the Sun (and it is closest to the Sun), each rotation is not accompanied by sunrise and sunset like it is on most other planets. The morning Sun appears to rise briefly, set, and rise again from some parts of the planet's surface. The same thing happens in reverse at sunset for other parts of the surface. One Mercury solar day (one full day-night cycle) equals 176 Earth days - just over two years on Mercury. Mercury's axis of rotation is tilted just 2 degrees with respect to the plane of its orbit around the Sun. That means it spins nearly perfectly upright and so does not experience seasons as many other planets do. ",
+            "sizeAndDistance": "With a radius of 1,516 miles (2,440 kilometers), Mercury is a little more than 1/3 the width of Earth. If Earth were the size of a nickel, Mercury would be about as big as a blueberry. From an average distance of 36 million miles (58 million kilometers), Mercury is 0.4 astronomical units away from the Sun. One astronomical unit (abbreviated as AU), is the distance from the Sun to Earth. From this distance, it takes sunlight 3.2 minutes to travel from the Sun to Mercury.",
+            "moons": "Mercury doesn't have moons.",
+            "formation": "Mercury formed about 4.5 billion years ago when gravity pulled swirling gas and dust together to form this small planet nearest the Sun. Like its fellow terrestrial planets, Mercury has a central core, a rocky mantle, and a solid crust."
+        },
+        "7f2614f9-ad38-476a-a638-b75626f96117": {
+            "image": "https://static01.nyt.com/images/2020/09/14/science/14SCI-VENUS1-alt/14SCI-VENUS1-alt-superJumbo.jpg",
+            "title": "Venus",
+            "introduction": "It's a cloud-swaddled planet named for a love goddess, often called Earth's twin. But pull up a bit closer, and Venus turns hellish. Our nearest planetary neighbor, the second planet from the Sun, has a surface hot enough to melt lead. The atmosphere is so thick that, from the surface, the Sun is just a smear of light. In some ways it is more an opposite of Earth than a twin: Venus spins backward, has a day longer than its year, and lacks any semblance of seasons. It might once have been a habitable ocean world, like Earth, but that was at least a billion years ago. A runaway greenhouse effect turned all surface water into vapor, which then leaked slowly into space. The present-day surface of volcanic rock is blasted by high temperatures and pressures. Asked if the surface of Venus is likely to be life-bearing today, we can give a quick answer: a hard “no”. Further, Venus may hold lessons about what it takes for life to get its start - on Earth, in our solar system, or across the galaxy. The ingredients are all there, or at least, they used to be. By studying why our neighbor world went in such a different direction with regard to habitability, we could find out what could make other worlds right. And while it might sound absurd, we can't rule out life on Venus entirely. Temperature, air pressure, and chemistry are much more congenial up high, in those thick, yellow clouds.",
+            "namesake": "The ancient Romans could easily see seven bright objects in the sky: the Sun, the Moon, and the five brightest planets (Mercury, Venus, Mars, Jupiter, and Saturn). They named the objects after their most important gods. Venus, the third brightest object after the Sun and Moon, was named after the Roman goddess of love and beauty. It's the only planet named after a female god.",
+            "orbitAndRotation": "Spending a day on Venus would be quite a disorienting experience - that is, if your ship or suit could protect you from temperatures in the range of 900 degrees Fahrenheit (475 Celsius). For one thing, your “day” would be 243 Earth days long - longer even than a Venus year (one trip around the Sun), which takes only 225 Earth days. For another, because of the planet's extremely slow rotation, sunrise to sunset would take 117 Earth days. And by the way, the Sun would rise in the west and set in the east, because Venus spins backward compared to Earth. While you're waiting, don't expect any seasonal relief from the unrelenting temperatures. On Earth, with its spin axis tilted by about 23 degrees, we experience summer when our part of the planet (our hemisphere) receives the Sun's rays more directly - a result of that tilt. In winter, the tilt means the rays are less direct. No such luck on Venus: Its very slight tilt is only three degrees, which is too little to produce noticeable seasons.",
+            "sizeAndDistance": "Our nearness to Venus is a matter of perspective. The planet is nearly as big around as Earth - 7,521 miles (12,104 kilometers) across, versus 7,926 miles (12,756 kilometers) for Earth. From Earth, Venus is the brightest object in the night sky after our own Moon. The ancients, therefore, gave it great importance in their cultures, even thinking it was two objects: a morning star and an evening star. That's where the trick of perspective comes in. Because Venus' orbit is closer to the Sun than ours, the two of them - from our viewpoint - never stray far from each other. The ancient Egyptians and Greeks saw Venus in two guises: first in one orbital position (seen in the morning), then another (your “evening” Venus), just at different times of the year. At its nearest to Earth, Venus is some 38 million miles (about 61 million kilometers) distant. But most of the time the two planets are farther apart; Mercury, the innermost planet, actually spends more time in Earth's proximity than Venus. One more trick of perspective: how Venus looks through binoculars or a telescope. Keep watch over many months, and you'll notice that Venus has phases, just like our Moon - full, half, quarter, etc. The complete cycle, however, new to full, takes 584 days, while our Moon takes just a month. And it was this perspective, the phases of Venus first observed by Galileo through his telescope, that provided the key scientific proof for the Copernican heliocentric nature of the Solar System.",
+            "moons": "Venus has no moons.",
+            "formation": "A critical question for scientists who search for life among the stars: How do habitable planets get their start? The close similarities of early Venus and Earth, and their very different fates, provide a kind of test case for scientists who study planet formation. Similar size, similar interior structure, both harboring oceans in their younger days. Yet one is now an inferno, while the other is the only known world - so far - to play host to abundant life. The factors that set these planets on almost opposite paths began, most likely, in the swirling disk of gas and dust from which they were born. Somehow, 4.6 billion years ago that disk around our Sun accreted, cooled, and settled into the planets we know today. Several might well have moved in closer, or farther out, as the solar system formed. Better knowledge of the formation history of Venus could help us better understand Earth's - and those of rocky planets around other stars."
+        },
+        "a941433d-e65b-423d-9230-8f3b0799e90c": {
+            "image": "https://i.natgeofe.com/n/f5453fe7-0483-42f1-b3e7-160e1d2019f8/940_4x3.jpg",
+            "title": "Earth",
+            "introduction": "Our home planet is the third planet from the Sun, and the only place we know of so far that's inhabited by living things. While Earth is only the fifth largest planet in the solar system, it is the only world in our solar system with liquid water on the surface. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal.",
+            "namesake": "The name Earth is at least 1,000 years old. All of the planets, except for Earth, were named after Greek and Roman gods and goddesses. However, the name Earth is a Germanic word, which simply means “the ground.”",
+            "orbitAndRotation": "As Earth orbits the Sun, it completes one rotation every 23.9 hours. It takes 365.25 days to complete one trip around the Sun. That extra quarter of a day presents a challenge to our calendar system, which counts one year as 365 days. To keep our yearly calendars consistent with our orbit around the Sun, every four years we add one day. That day is called a leap day, and the year it's added to is called a leap year. Earth's axis of rotation is tilted 23.4 degrees with respect to the plane of Earth's orbit around the Sun. This tilt causes our yearly cycle of seasons. During part of the year, the northern hemisphere is tilted toward the Sun, and the southern hemisphere is tilted away. With the Sun higher in the sky, solar heating is greater in the north producing summer there. Less direct solar heating produces winter in the south. Six months later, the situation is reversed. When spring and fall begin, both hemispheres receive roughly equal amounts of heat from the Sun.",
+            "sizeAndDistance": "With a radius of 3,959 miles (6,371 kilometers), Earth is the biggest of the terrestrial planets and the fifth largest planet overall. From an average distance of 93 million miles (150 million kilometers), Earth is exactly one astronomical unit away from the Sun because one astronomical unit (abbreviated as AU), is the distance from the Sun to Earth. This unit provides an easy way to quickly compare planets' distances from the Sun. It takes about eight minutes for light from the Sun to reach our planet.",
+            "moons": "Earth is the only planet that has a single moon. Our Moon is the brightest and most familiar object in the night sky. In many ways, the Moon is responsible for making Earth such a great home. It stabilizes our planet's wobble, which has made the climate less variable over thousands of years. Earth sometimes temporarily hosts orbiting asteroids or large rocks. They are typically trapped by Earth's gravity for a few months or years before returning to an orbit around the Sun. Some asteroids will be in a long “dance” with Earth as both orbit the Sun. Some moons are bits of rock that were captured by a planet's gravity, but our Moon is likely the result of a collision billions of years ago. When Earth was a young planet, a large chunk of rock smashed into it, displacing a portion of Earth's interior. The resulting chunks clumped together and formed our Moon. With a radius of 1,080 miles (1,738 kilometers), the Moon is the fifth largest moon in our solar system (after Ganymede, Titan, Callisto, and Io). The Moon is an average of 238,855 miles (384,400 kilometers) away from Earth. That means 30 Earth-sized planets could fit in between Earth and its Moon.",
+            "formation": "When the solar system settled into its current layout about 4.5 billion years ago, Earth formed when gravity pulled swirling gas and dust in to become the third planet from the Sun. Like its fellow terrestrial planets, Earth has a central core, a rocky mantle, and a solid crust."
+        },
+        "edbc820d-bf6e-4e8b-9f49-b523db70e81c": {
+            "image": "https://images3.alphacoders.com/217/thumb-1920-217475.jpg",
+            "title": "Mars",
+            "introduction": "Mars is no place for the faint-hearted. It's dry, rocky, and bitter cold. The fourth planet from the Sun, Mars is one of Earth's two closest planetary neighbors (Venus is the other). Mars is one of the easiest planets to spot in the night sky - it looks like a bright red point of light. Despite being inhospitable to humans, robotic explorers - like NASA's new Perseverance rover - are serving as pathfinders to eventually get humans to the surface of the Red Planet.",
+            "namesake": "Mars was named by the ancient Romans for their god of war because its reddish color was reminiscent of blood. Other civilizations also named the planet for this attribute - for example, the Egyptians called it ”Her Desher” meaning ”the red one.” Even today, it is frequently called the ”Red Planet” because iron minerals in the Martian dirt oxidize, or rust, causing the surface to look red.",
+            "orbitAndRotation": "As Mars orbits the Sun, it completes one rotation every 24.6 hours, which is very similar to one day on Earth (23.9 hours). Martian days are called sols - short for ”solar day.” A year on Mars lasts 669.6 sols, which is the same as 687 Earth days. Mars' axis of rotation is tilted 25 degrees with respect to the plane of its orbit around the Sun. This is another similarity with Earth, which has an axial tilt of 23.4 degrees. Like Earth, Mars has distinct seasons, but they last longer than seasons here on Earth since Mars takes longer to orbit the Sun (because it's farther away). And while here on Earth the seasons are evenly spread over the year, lasting 3 months (or one quarter of a year), on Mars the seasons vary in length because of Mars' elliptical, egg-shaped orbit around the Sun. Spring in the northern hemisphere (autumn in the southern) is the longest season at 194 sols. Autumn in the northern hemisphere (spring in the southern) is the shortest at 142 days. Northern winter/southern summer is 154 sols, and northern summer/southern winter is 178 sols.",
+            "sizeAndDistance": "With a radius of 2,106 miles (3,390 kilometers), Mars is about half the size of Earth. If Earth were the size of a nickel, Mars would be about as big as a raspberry. From an average distance of 142 million miles (228 million kilometers), Mars is 1.5 astronomical units away from the Sun. One astronomical unit (abbreviated as AU), is the distance from the Sun to Earth. From this distance, it takes sunlight 13 minutes to travel from the Sun to Mars.",
+            "moons": "Mars has two small moons, Phobos and Deimos, that may be captured asteroids. They're potato-shaped because they have too little mass for gravity to make them spherical. The moons get their names from the horses that pulled the chariot of the Greek god of war, Ares. Phobos, the innermost and larger moon, is heavily cratered, with deep grooves on its surface. It is slowly moving towards Mars and will crash into the planet or break apart in about 50 million years. Deimos is about half as big as Phobos and orbits two and a half times farther away from Mars. Oddly-shaped Deimos is covered in loose dirt that often fills the craters on its surface, making it appear smoother than pockmarked Phobos.",
+            "formation": "When the solar system settled into its current layout about 4.5 billion years ago, Mars formed when gravity pulled swirling gas and dust in to become the fourth planet from the Sun. Mars is about half the size of Earth, and like its fellow terrestrial planets, it has a central core, a rocky mantle, and a solid crust."
+        },
+        "dd3ff3f1-efc6-4379-9706-becc7aba6226": {
+            "image": "https://cdn.mos.cms.futurecdn.net/Cvzdqd7AxLzjzQNoZaQVhC.jpg",
+            "title": "Jupiter",
+            "introduction": "Jupiter is the fifth planet from our Sun and is, by far, the largest planet in the solar system - more than twice as massive as all the other planets combined. Jupiter's stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium. Jupiter's iconic Great Red Spot is a giant storm bigger than Earth that has raged for hundreds of years. Jupiter is surrounded by dozens of moons. Jupiter also has several rings, but unlike the famous rings of Saturn, Jupiter's rings are very faint and made of dust, not ice.",
+            "namesake": "Jupiter, being the biggest planet, gets its name from the king of the ancient Roman gods.",
+            "orbitAndRotation": "Jupiter has the shortest day in the solar system. One day on Jupiter takes only about 10 hours (the time it takes for Jupiter to rotate or spin around once), and Jupiter makes a complete orbit around the Sun (a year in Jovian time) in about 12 Earth years (4,333 Earth days). Its equator is tilted with respect to its orbital path around the Sun by just 3 degrees. This means Jupiter spins nearly upright and does not have seasons as extreme as other planets do.",
+            "sizeAndDistance": "With a radius of 43,440.7 miles (69,911 kilometers), Jupiter is 11 times wider than Earth. If Earth were the size of a nickel, Jupiter would be about as big as a basketball. From an average distance of 484 million miles (778 million kilometers), Jupiter is 5.2 astronomical units away from the Sun. One astronomical unit (abbreviated as AU), is the distance from the Sun to Earth. From this distance, it takes Sunlight 43 minutes to travel from the Sun to Jupiter.",
+            "moons": "With four large moons and many smaller moons, Jupiter forms a kind of miniature solar system. Jupiter has 80 moons. Fifty-seven moons have been given official names by the International Astronomical Union (IAU). Another 23 moons are awaiting names. Jupiter's four largest moons - Io, Europa, Ganymede, and Callisto - were first observed by the astronomer Galileo Galilei in 1610 using an early version of the telescope. These four moons are known today as the Galilean satellites, and they're some of the most fascinating destinations in our solar system. Io is the most volcanically active body in the solar system. Ganymede is the largest moon in the solar system (even bigger than the planet Mercury). Callisto's very few small craters indicate a small degree of current surface activity. A liquid-water ocean with the ingredients for life may lie beneath the frozen crust of Europa, making it a tempting place to explore.",
+            "formation": "Jupiter took shape when the rest of the solar system formed about 4.5 billion years ago when gravity pulled swirling gas and dust in to become this gas giant. Jupiter took most of the mass left over after the formation of the Sun, ending up with more than twice the combined material of the other bodies in the solar system. In fact, Jupiter has the same ingredients as a star, but it did not grow massive enough to ignite. About 4 billion years ago, Jupiter settled into its current position in the outer solar system, where it is the fifth planet from the Sun."
+        },
+        "27bf1999-22ae-4fad-a9e5-18a35cce1e0d": {
+            "image": "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2F0dXJufGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+            "title": "Saturn",
+            "introduction": "Saturn is the sixth planet from the Sun and the second-largest planet in our solar system. Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium. Saturn is not the only planet to have rings, but none are as spectacular or as complex as Saturn's. Saturn also has dozens of moons. From the jets of water that spray from Saturn's moon Enceladus to the methane lakes on smoggy Titan, the Saturn system is a rich source of scientific discovery and still holds many mysteries.",
+            "namesake": "The farthest planet from Earth discovered by the unaided human eye, Saturn has been known since ancient times. The planet is named for the Roman god of agriculture and wealth, who was also the father of Jupiter.",
+            "orbitAndRotation": "Saturn has the second-shortest day in the solar system. One day on Saturn takes only 10.7 hours (the time it takes for Saturn to rotate or spin around once), and Saturn makes a complete orbit around the Sun (a year in Saturnian time) in about 29.4 Earth years (10,756 Earth days). Its axis is tilted by 26.73 degrees with respect to its orbit around the Sun, which is similar to Earth's 23.5-degree tilt. This means that, like Earth, Saturn experiences seasons.",
+            "sizeAndDistance": "With a radius of 36,183.7 miles (58,232 kilometers), Saturn is 9 times wider than Earth. If Earth were the size of a nickel, Saturn would be about as big as a volleyball. From an average distance of 886 million miles (1.4 billion kilometers), Saturn is 9.5 astronomical units away from the Sun. One astronomical unit (abbreviated as AU), is the distance from the Sun to Earth. From this distance, it takes sunlight 80 minutes to travel from the Sun to Saturn.",
+            "moons": "Saturn is home to a vast array of intriguing and unique worlds. From the haze-shrouded surface of Titan to crater-riddled Phoebe, each of Saturn's moons tells another piece of the story surrounding the Saturn system. Saturn has 83 moons. Sixty-three moons are confirmed and named, and another 20 moons are awaiting confirmation of discovery and official naming by the International Astronomical Union (IAU).",
+            "formation": "Saturn took shape when the rest of the solar system formed about 4.5 billion years ago when gravity pulled swirling gas and dust in to become this gas giant. About 4 billion years ago, Saturn settled into its current position in the outer solar system, where it is the sixth planet from the Sun. Like Jupiter, Saturn is mostly made of hydrogen and helium, the same two main components that make up the Sun."
+        },
+        "2af485ee-8757-4f9a-9a14-6b6e49d5be1c": {
+            "image": "https://images.unsplash.com/photo-1614732484003-ef9881555dc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXJhbnVzfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+            "title": "Uranus",
+            "introduction": "The seventh planet from the Sun with the third largest diameter in our solar system, Uranus is very cold and windy. The ice giant is surrounded by 13 faint rings and 27 small moons as it rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin sideways, orbiting the Sun like a rolling ball. The first planet found with the aid of a telescope, Uranus was discovered in 1781 by astronomer William Herschel, although he originally thought it was either a comet or a star. It was two years later that the object was universally accepted as a new planet, in part because of observations by astronomer Johann Elert Bode.",
+            "namesake": "William Herschel tried unsuccessfully to name his discovery Georgium Sidus after King George III. Instead, the planet was named for Uranus, the Greek god of the sky, as suggested by Johann Bode.",
+            "orbitAndRotation": "One day on Uranus takes about 17 hours (the time it takes for Uranus to rotate or spin once). And Uranus makes a complete orbit around the Sun (a year in Uranian time) in about 84 Earth years (30,687 Earth days). Uranus is the only planet whose equator is nearly at a right angle to its orbit, with a tilt of 97.77 degrees - possibly the result of a collision with an Earth-sized object long ago. This unique tilt causes the most extreme seasons in the solar system. For nearly a quarter of each Uranian year, the Sun shines directly over each pole, plunging the other half of the planet into a 21-year-long, dark winter. Uranus is also one of just two planets that rotate in the opposite direction than most of the planets (Venus is the other one), from east to west.",
+            "sizeAndDistance": "With a radius of 15,759.2 miles (25,362 kilometers), Uranus is 4 times wider than Earth. If Earth was the size of a nickel, Uranus would be about as big as a softball. From an average distance of 1.8 billion miles (2.9 billion kilometers), Uranus is 19.8 astronomical units away from the Sun. One astronomical unit (abbreviated as AU), is the distance from the Sun to Earth. From this distance, it takes sunlight 2 hours and 40 minutes to travel from the Sun to Uranus.",
+            "moons": "Uranus has 27 known moons. While most of the satellites orbiting other planets take their names from Greek or Roman mythology, Uranus' moons are unique in being named for characters from the works of William Shakespeare and Alexander Pope. All of Uranus' inner moons appear to be roughly half water ice and half rock. The composition of the outer moons remains unknown, but they are likely captured asteroids.",
+            "formation": "Uranus took shape when the rest of the solar system formed about 4.5 billion years ago – when gravity pulled swirling gas and dust in to become this ice giant. Like its neighbor Neptune, Uranus likely formed closer to the Sun and moved to the outer solar system about 4 billion years ago, where it is the seventh planet from the Sun."
+        },
+        "bb775b12-df41-4b6b-9de3-80f6177410df": {
+            "image": "https://cdn.mos.cms.futurecdn.net/PezBzd9Fehsq9XWgWMauVV.jpg",
+            "title": "Neptune",
+            "introduction": "Dark, cold, and whipped by supersonic winds, ice giant Neptune is the eighth and most distant planet in our solar system. More than 30 times as far from the Sun as Earth, Neptune is the only planet in our solar system not visible to the naked eye. In 2011 Neptune completed its first 165-year orbit since its discovery in 1846. Neptune is so far from the Sun that high noon on the big blue planet would seem like dim twilight to us. The warm light we see here on our home planet is roughly 900 times as bright as sunlight on Neptune.",
+            "namesake": "The ice giant Neptune was the first planet located through mathematical calculations. Using predictions made by Urbain Le Verrier, Johann Galle discovered the planet in 1846. The planet is named after the Roman god of the sea, as suggested by Le Verrier.",
+            "orbitAndRotation": "One day on Neptune takes about 16 hours (the time it takes for Neptune to rotate or spin once). And Neptune makes a complete orbit around the Sun (a year in Neptunian time) in about 165 Earth years (60,190 Earth days). Sometimes Neptune is even farther from the Sun than dwarf planet Pluto. Pluto's highly eccentric, oval-shaped orbit brings it inside Neptune's orbit for a 20-year period every 248 Earth years. This switch, in which Pluto is closer to the Sun than Neptune, happened most recently from 1979 to 1999. Pluto can never crash into Neptune, though, because for every three laps Neptune takes around the Sun, Pluto makes two. This repeating pattern prevents close approaches of the two bodies. Neptune's axis of rotation is tilted 28 degrees with respect to the plane of its orbit around the Sun, which is similar to the axial tilts of Mars and Earth. This means that Neptune experiences seasons just like we do on Earth; however, since its year is so long, each of the four seasons lasts for over 40 years.",
+            "sizeAndDistance": "With a radius of 15,299.4 miles (24,622 kilometers), Neptune is about four times wider than Earth. If Earth were the size of a nickel, Neptune would be about as big as a baseball. From an average distance of 2.8 billion miles (4.5 billion kilometers), Neptune is 30 astronomical units away from the Sun. One astronomical unit (abbreviated as AU), is the distance from the Sun to Earth. From this distance, it takes sunlight 4 hours to travel from the Sun to Neptune.",
+            "moons": "Neptune has 14 known moons. Neptune's largest moon Triton was discovered on October 10, 1846, by William Lassell, just 17 days after Johann Gottfried Galle discovered the planet. Since Neptune was named for the Roman god of the sea, its moons are named for various lesser sea gods and nymphs in Greek mythology. Triton is the only large moon in the solar system that circles its planet in a direction opposite to the planet's rotation (a retrograde orbit), which suggests that it may once have been an independent object that Neptune captured. Triton is extremely cold, with surface temperatures around minus 391 degrees Fahrenheit (minus 235 degrees Celsius). And yet, despite this deep freeze at Triton, Voyager 2 discovered geysers spewing icy material upward more than 5 miles (8 kilometers). Triton's thin atmosphere, also discovered by Voyager, has been detected from Earth several times since, and is growing warmer, but scientists do not yet know why.",
+            "formation": "Neptune took shape when the rest of the solar system formed about 4.5 billion years ago when gravity pulled swirling gas and dust in to become this ice giant. Like its neighbor Uranus, Neptune likely formed closer to the Sun and moved to the outer solar system about 4 billion years ago."
+        },
+        "08366737-52e1-4c0c-a0fa-0c348f865a7d": {
+            "image": "https://cdn.mos.cms.futurecdn.net/DoZSMXF87kCuzbymsuEFHo.jpg",
+            "title": "Pluto",
+            "introduction": "Pluto is a complex and mysterious world with mountains, valleys, plains, craters, and maybe glaciers. Discovered in 1930, Pluto was long considered our solar system's ninth planet. But after the discovery of similar intriguing worlds deeper in the distant Kuiper Belt, icy Pluto was reclassified as a dwarf planet. Pluto is only about 1,400 miles wide. At that small size, Pluto is only about half the width of the United States. It's about 3.6 billion miles away from the Sun, and it has a thin atmosphere composed mostly of nitrogen, methane, and carbon monoxide. On average, Pluto's temperature is -387°F (-232°C), making it too cold to sustain life. Pluto is orbited by five known moons, the largest of which is Charon. Charon is about half the size of Pluto itself, making it the largest satellite relative to the planet it orbits in our solar system. Pluto and Charon are often referred to as a ”double planet.”",
+            "namesake": "Pluto is the only world (so far) named by an 11-year-old girl. In 1930, Venetia Burney of Oxford, England, suggested to her grandfather that the new discovery be named for the Roman god of the underworld. He forwarded the name to the Lowell Observatory and it was selected. Pluto's moons are named for other mythological figures associated with the underworld. Charon is named for the river Styx boatman who ferries souls in the underworld (as well as honoring Sharon, the wife of discoverer James Christy); Nix is named for the mother of Charon, who is also the goddess of darkness and night; Hydra is named for the nine-headed serpent that guards the underworld; Kerberos is named after the three-headed dog of Greek mythology (and called Fluffy in the Harry Potter novels), and Styx is named for the mythological river that separates the world of the living from the realm of the dead. Pluto's place in mythology can get a little muddled, so we asked Dr. Elizabeth Vandiver, chair of the Department of Classics in Whitman College in Walla Walla, Washington, to clarify the origins of the name: ”Pluto is the name of the Roman god of the Underworld, equivalent to the Greek Hades. However, the Greek name ”Plouton” (from which the Romans derived their name ”Pluto”) was also occasionally used as an alternative name for Hades. But Pluto is definitely the Roman spelling.”",
+            "orbitAndRotation": "Pluto's orbit around the Sun is unusual compared to the planets: it's both elliptical and tilted. Pluto's 248-year-long, oval-shaped orbit can take it as far as 49.3 astronomical units (AU) from the Sun, and as close as 30 AU. (One AU is the mean distance between Earth and the Sun: about 93 million miles or 150 million kilometers.) But on average, Pluto is 3.7 billion miles (5.9 billion kilometers) away from the Sun, or 39 AU. From 1979 to 1999, Pluto was near perihelion, when it is closest to the Sun. During this time, Pluto was actually closer to the Sun than Neptune. One day on Pluto takes about 153 hours. Its axis of rotation is tilted 57 degrees with respect to the plane of its orbit around the Sun, so it spins almost on its side. Pluto also exhibits a retrograde rotation; spinning from east to west like Venus and Uranus.",
+            "sizeAndDistance": "With a radius of 715 miles (1,151 kilometers), Pluto is about 1/6 the width of Earth. If Earth was the size of a nickel, Pluto would be about as big as a popcorn kernel. From an average distance of 3.7 billion miles (5.9 billion kilometers), Pluto is 39 astronomical units away from the Sun. One astronomical unit (abbreviated as AU), is the distance from the Sun to Earth. From this distance, it takes sunlight 5.5 hours to travel from the Sun to Pluto. If you were to stand on the surface of Pluto at noon, the Sun would be 1/900 the brightness it is here on Earth, or about 300 times as bright as our full moon. There is a moment each day near sunset here on Earth when the light is the same brightness as midday on Pluto. Find out when you can experience ”Pluto time” where you live.",
+            "moons": "Pluto has five known moons: Charon, Nix, Hydra, Kerberos, and Styx. This moon system might have formed by a collision between Pluto and another similar-sized body early in the history of the solar system. Charon, the biggest of Pluto's moons, is about half the size of Pluto itself, making it the largest satellite relative to the planet it orbits in our solar system. It orbits Pluto at a distance of just 12,200 miles (19,640 kilometers). For comparison, our Moon is 20 times farther away from Earth. Pluto and Charon are often referred to as a double planet. Charon's orbit around Pluto takes 153 hours - the same time it takes Pluto to complete one rotation. This means Charon neither rises nor sets, but hovers over the same spot on Pluto's surface. The same side of Charon always faces Pluto, a state called tidal locking. Pluto's other four moons are much smaller, less than 100 miles (160 kilometers) wide. They're also irregularly shaped, not spherical like Charon. Unlike many other moons in the solar system, these moons are not tidally locked to Pluto. They all spin and don't keep the same face towards Pluto.",
+            "formation": "Dwarf planet Pluto is a member of a group of objects that orbit in a disc-like zone beyond the orbit of Neptune called the Kuiper Belt. This distant realm is populated with thousands of miniature icy worlds, which formed early in the history of our solar system about 4.5 billion years ago. These icy, rocky bodies are called Kuiper Belt objects, transneptunian objects, or plutoids."
+        },
+        "fadc2287-b952-4692-92f1-002e549f3b30": {
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/210409074437-04-yuri-gagarin-space-capsule.jpg?q=w_3662,h_2520,x_0,y_0,c_fill",
+            "name": "Yuri Alekseyevich Gagarin",
+            "birthDateAndPlace": "March 9, 1934, Klushino, Russia",
+            "deathDateAndPlace": "March 27, 1968, Novoselovo, Russia",
+            "nationality": "Soviet",
+            "information": "In 1955, Soviet cosmonaut Yuri Gagarin was chosen by the Soviets for mankind's first trip to space due to his impressive record as a fighter pilot in the military. Six years later, Gagarin would take a flight 203 miles above the earth, making him the first person to go into space. His first words, the first ever spoken by a human in space, were, “I see the earth. It's so beautiful!” The trip to space was bigger than Gagarin, of course, and bigger than the Soviet Union too. It was an achievement for all mankind. Yet, it wouldn't have been possible without Gagarin's technical ability and bravery. Sadly, Gagarin would die during a routine training exercise just seven years after his trip to space."
+        },
+        "788002b5-33cc-4d79-8d62-37ec556d07f0": {
+            "image": "https://cdn.britannica.com/32/168932-050-DA330336/Neil-Armstrong-American-launch-Gemini-8-Florida-March-1966.jpg",
+            "name": "Neil Alden Armstrong",
+            "birthDateAndPlace": "August 5, 1930, Wapakoneta, Ohio, United States",
+            "deathDateAndPlace": "August 25, 2012, Cincinnati, Ohio, United States",
+            "nationality": "American",
+            "information": "In 1969, he became the first man to walk on the moon. His iconic words are “that's one small step for man, one giant leap for mankind”. Armstrong's journey to the moon took around four days, but the overall mission took around eight years. In 1961, President Kennedy promised the nation that he'd put a man on the moon by the end of the 1960s — a feat they managed to pull off just in time. Armstrong spent more than twenty-one hours on the moon's surface, collecting samples, deploying instruments, taking photographs, and, famously, planting an American flag. The astronaut led a relatively quiet life after returning to earth, spending the rest of his career teaching and working for aviation companies."
+        },
+        "0817944d-490e-4367-91b1-93a93b56315e": {
+            "image": "https://wehackthemoon.com/sites/default/files/styles/hero_small_2x_1534x_/public/2019-01/s70-55389.jpg?h=870c90cb&itok=RVRX-efn",
+            "name": "Alan Bartlett Shepard Jr.",
+            "birthDateAndPlace": "November 18, 1923, East Derry, Derry, New Hampshire, United States",
+            "deathDateAndPlace": "July 21, 1998, Pebble Beach, Del Monte Forest, California, United States",
+            "nationality": "American",
+            "information": "Born in 1923, Nasa Astronaut Alan Shepard was the first American in space. After WWII, Alan Shepard went back to school and became a test pilot. He is famous for being one of only 12 individuals who also walked on the moon. Alan Shepard was involved in 2 space missions, and famously was the first person to hit a golf ball on the moon."
+        },
+        "8de5aa0d-4e0e-4028-ab27-8376215d1e60": {
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/130507092326-buzz-aldrin-2.jpg?q=x_0,y_48,h_664,w_1182,c_crop/h_720,w_1280",
+            "name": "Edwin Eugene Aldrin Jr.",
+            "birthDateAndPlace": "January 20, 1930, Glen Ridge, New Jersey, United States",
+            "deathDateAndPlace": "Still Alive",
+            "nationality": "American",
+            "information": "Nasa astronaut Buzz Aldrin isn't as famous as his colleague Neil Armstrong, but anyone with even a passing interest in space exploration knows his name. He stepped onto the moon around twenty minutes after Armstrong during the famous Apollo 11 mission. In many ways, Buzz Aldrin was more accomplished than Armstrong. He'd been on more NASA missions and spent more time in space — nearly 300 hours in total. Aldrin's post-moon life has been filled with celebrity appearances and space advocacy, though he also engaged in regular jobs, such as selling cars, after leaving NASA in 1971."
+        },
+        "d7a76531-3868-4e52-a483-4dba30d77397": {
+            "image": "https://s.abcnews.com/images/Technology/gty_john_glenn_tty_03_nasa_jc_140918_1_16x9_1600.jpg",
+            "name": "John Herschel Glenn Jr.",
+            "birthDateAndPlace": "July 18, 1921, Cambridge, Ohio, United States",
+            "deathDateAndPlace": "December 8, 2016, The Ohio State University Wexner Medical Center, Columbus, Ohio, United States",
+            "nationality": "American",
+            "information": "In 1962, he became the first American to orbit the earth — he traveled around the world three times in five hours aboard the Friendship 7 spacecraft. It was far from his foray into the exciting world of altitude travel. Five years before he became the first American to orbit the earth, Glenn became the first person to travel across the American continent at supersonic speeds. His success prompted NASA to draft him as part of “Mercury Seven“ which was the first gathering of astronauts in the country. Most people would be content to rest on their laurels after a trip around earth's orbit, but not Glenn. In 1974, he was elected to the U.S. Senate — the first astronaut to become a senator — and then, in 1998, he became the oldest person to take a spaceflight at the age of 77."
+        },
+        "83d71e63-361d-4194-a0b9-5f05ac978caa": {
+            "image": "https://c.files.bbci.co.uk/B913/production/_85597374_85597370.jpg",
+            "name": "Valentina Vladimirovna Tereshkova",
+            "birthDateAndPlace": "March 6, 1937, Bol'shoe Maslennikovo, Russia",
+            "deathDateAndPlace": "Still Alive",
+            "nationality": "Russian",
+            "information": "Valentina Tereshkova became the first woman to go into space on June 16th, 1963. She had been selected the year previously by the Russian Space Federation, which wanted to put the first woman in space. During her trip, Tereshkova orbited earth forty-eight times, taking photographs and keeping a flight log, which helped to aid future missions. That was Tereshkova's first and only trip to space, but she stayed active within the space industry after her brief stint as an astronaut came to an end, working as a cosmonaut engineer before moving into politics. "
+        },
+        "8acbcef3-7ff9-4419-948f-e930c85127dd": {
+            "image": "https://i.natgeofe.com/n/e16f4679-2097-4cb7-a70b-1123da36b876/sally-ride-01.jpg",
+            "name": "Sally Kristen Ride",
+            "birthDateAndPlace": "May 26, 1951, Encino, Los Angeles, California, United States",
+            "deathDateAndPlace": "July 23, 2012, La Jolla, California, United States",
+            "nationality": "American",
+            "information": "Sally Ride was the first American woman send on a space shuttle. Her trip to space got underway on June 18th, 1983, as part of the STS-7 mission on the Challenger along with five other astronauts. Her second space trip occurred a year later, also aboard the Challenger. The Space Shuttle Challenger disaster put all space trips on hold, and Ride wasn't able to go on any further mission. She retired from NASA in 1987 and worked as a physics professor and a vocal advocate for Stem education. Ride would stay in the public eye, however, as a key part of both the 1986 and 2003 investigations into the Challenger disaster. "
+        },
+        "13958c4d-0b51-483f-bf29-bafd59c6735f": {
+            "image": "https://www.theglobeandmail.com/resizer/1pILq2Wt8C-O5MFQQ8M6F_IBiHk=/1200x798/filters:quality(80)/arc-anglerfish-tgam-prod-tgam.s3.amazonaws.com/public/JYP63UKXQFEWJEJ4ZLE3P27ZV4",
+            "name": "Chris Austin Hadfield",
+            "birthDateAndPlace": "August 29, 1959, Sarnia, Canada",
+            "deathDateAndPlace": "Still Alive",
+            "nationality": "American",
+            "information": "Chris Hadfield is arguably the most famous astronaut after Neil Armstrong. Hadfield is a highly accomplished astronaut who has been involved in multiple successful space missions. What made him famous and grew a large fan base was his fantastic use of the social media. His musical performances aboard the International Space Station have accrued millions of views. His two most famous performances include a collaboration with Ed Robertston (of Barenaked Ladies fame) on a performance of “Is Somebody Singing?“ and his solo rendition of David Bowie's classic universe-friendly track, “Space Oddity.“ Hadfield is far and away Canada's most famous astronaut, which is reflected by his long list of honours. Among his collection is the Order of Canada, NASA Exceptional Service Medal, Queen's Jubilee Medal, and the Queen's Diamond Jubilee Medal."
+        },
+        "4f209bf1-3fae-421c-acaf-ceb6a8e1ba6d": {
+            "image": "http://www.nasa.gov/sites/default/files/thumbnails/image/s86-25196orig.jpeg",
+            "name": "Sharon Christa McAuliffe",
+            "birthDateAndPlace": "September 2, 1948, Boston, Massachusetts, United States",
+            "deathDateAndPlace": "January 28, 1986, Cape Canaveral, Florida, United States",
+            "nationality": "American",
+            "information": "Christa McAuliffe is a famous name in the world of space travel. Unfortunately, while she should be celebrated for becoming the first American civilian to take a trip to space, she is instead known as one of the seven people that died during the Challenger disaster in 1986. NASA planned to send a teacher into space as a way to generate interest in space travel among the public. More than 10,000 people applied for the position, with McAuliffe eventually becoming successful. Alas, the dream turned into a nightmare on January 28th, 1986, when the Challenger spacecraft broke apart shortly after takeoff, killing all crew members. Since her death, McAuliffe's name has been used for numerous scholarships, prizes, and schools, ensuring that her legacy lives on after death. "
+        },
+        "c0f07695-e173-471f-a9c3-77bb1a21d589": {
+            "image": "https://news.wisc.edu/content/uploads/2020/01/Jemison_Mae_MLK20_4680-1024x681.jpg",
+            "name": "Mae Carol Jemison",
+            "birthDateAndPlace": "October 17, 1956, Decatur, Alabama, United States",
+            "deathDateAndPlace": "Still Alive",
+            "nationality": "American",
+            "information": "Former Nasa astronaut, physician, author, chemical engineer and futurist Mae Jemison is another significant figure in the history of space travel. In 1992, she became the first woman of colour successfully orbiting earth 127 times over an eight-day period. It was the beginning of a fruitful public life for Jemison, who went on to write children's books and also appeared in an episode of Star Trek. She would later be inducted into the National Women's Hall of Fame and the International Space Hall of Fame. "
+        },
+        "dfc4347b-84f0-4b23-882d-0dd107b688cc": {
+            "image": "https://media.newyorker.com/photos/5a1dedd5a8cec87cdead00d2/16:9/w_3030,h_1704,c_limit/MLD-Scott-Kelly.jpg",
+            "name": "Scott Joseph Kelly",
+            "birthDateAndPlace": "February 21, 1964, City of Orange, New Jersey, United States",
+            "deathDateAndPlace": "Still Alive",
+            "nationality": "American",
+            "information": "To the general public, Scott Kelly is a relatively obscure astronaut celebrity. To space enthusiasts, he's perhaps the most famous NASA personality. He's spent around 520 days in space — among the most by any American — as well as nearly 18 hours of spacewalks. In total, he made four trips to space between 1999 and 2012, when he retired. For his achievements, he was awarded the NASA Distinguished Service Medal, the highest honour given by the space agency."
+        },
+        "cec7d878-12a0-47c9-bc7f-942eae6ea8f9": {
+            "image": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2016/01/esa_astronaut_tim_peake_in_cupola/15984193-1-eng-GB/ESA_astronaut_Tim_Peake_in_Cupola_pillars.jpg",
+            "name": "Timothy Nigel Peake",
+            "birthDateAndPlace": "April 7, 1972, Chichester, United Kingdom",
+            "deathDateAndPlace": "Still Alive",
+            "nationality": "British",
+            "information": "Tim Peake was the first British ESA astronaut to visit the International Space Station, launching on a Soyuz rocket on 15 December 2015 with crewmates Tim Kopra and Yuri Malenchenko. His Principia mission was an eventful and busy six months in space."
+        }
+    }
+}
