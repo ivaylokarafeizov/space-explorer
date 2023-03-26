@@ -1,10 +1,24 @@
 import styles from './Register.module.css';
 import { Link } from 'react-router-dom';
+import { useContext } from 'react';
+import { useForm } from '../../hooks/useForm';
+import { AuthContext } from '../../contexts/AuthContext';
 
 export default function Register() {
+    const { onRegisterSubmit } = useContext(AuthContext);
+    const { values, changeHandler, onSubmit } = useForm(
+        { email: '', username: '', password: '', confirmPassword: '' },
+        onRegisterSubmit
+    );
+
     return (
         <main className={styles['main']}>
-            <form className={styles['form']}>
+            <form
+                className={styles['form']}
+                id='register'
+                method='post'
+                onSubmit={onSubmit}
+            >
                 <h3>Register</h3>
                 <label className={styles['label']} htmlFor='username'>
                     Username
@@ -12,8 +26,11 @@ export default function Register() {
                 <input
                     className={styles['normal']}
                     type='text'
-                    placeholder='Username'
                     id='username'
+                    name='username'
+                    placeholder='Bruce Wayne'
+                    value={values.username}
+                    onChange={changeHandler}
                 />
                 <label className={styles['label']} htmlFor='email'>
                     Email
@@ -21,8 +38,11 @@ export default function Register() {
                 <input
                     className={styles['normal']}
                     type='email'
-                    placeholder='Email'
                     id='email'
+                    name='email'
+                    placeholder='maria@email.com'
+                    value={values.email}
+                    onChange={changeHandler}
                 />
                 <div className={styles['double']}>
                     <div className={styles['inputGroup']}>
@@ -31,8 +51,11 @@ export default function Register() {
                         </label>
                         <input
                             type='password'
-                            placeholder='Password'
-                            id='password'
+                            name='password'
+                            id='register-password'
+                            placeholder='***********'
+                            value={values.password}
+                            onChange={changeHandler}
                         />
                     </div>
                     <div className={styles['inputGroup']}>
@@ -41,12 +64,17 @@ export default function Register() {
                         </label>
                         <input
                             type='password'
-                            placeholder='Repeat Password'
-                            id='rePass'
+                            name='confirmPassword'
+                            placeholder='***********'
+                            id='confirm-password'
+                            value={values.confirmPassword}
+                            onChange={changeHandler}
                         />
                     </div>
                 </div>
-                <button>Register</button>
+                <button type='submit' value='Register'>
+                    Register
+                </button>
                 <div className={styles['actions']}>
                     <Link to='/login'>
                         <div className={styles['login']}>Login</div>

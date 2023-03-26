@@ -1,7 +1,11 @@
 import styles from './Header.module.css';
 import { NavLink } from 'react-router-dom';
+import { useContext } from 'react';
+import { AuthContext } from '../../contexts/AuthContext';
 
 export default function Header() {
+    const { isAuthenticated } = useContext(AuthContext);
+
     return (
         <header className={styles['header']}>
             <nav className={styles['header-nav']}>
@@ -70,11 +74,25 @@ export default function Header() {
                             Posts
                         </NavLink>
                     </li>
-                    <li>
-                        <NavLink to='login' className={styles['signIn-btn']}>
-                            Sign In
-                        </NavLink>
-                    </li>
+                    {isAuthenticated ? (
+                        <li>
+                            <NavLink
+                                to='/logout'
+                                className={styles['logOut-btn']}
+                            >
+                                Logout
+                            </NavLink>
+                        </li>
+                    ) : (
+                        <li>
+                            <NavLink
+                                to='/login'
+                                className={styles['signIn-btn']}
+                            >
+                                Sign In
+                            </NavLink>
+                        </li>
+                    )}
                 </ul>
             </nav>
         </header>

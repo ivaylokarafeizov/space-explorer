@@ -43,6 +43,19 @@
     color: black;
 }
 
+.logOut-btn {
+    padding: 5px 20px;
+    border: none;
+    background-color: darkred;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 400ms ease-in-out;
+}
+
+.logOut-btn:hover {
+    color: black;
+}
+
 .header-nav ul {
     list-style: none;
     display: flex;
