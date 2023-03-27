@@ -1,0 +1,35 @@
+.site-intro {
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url('../../../assets/earth.jpg');
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    text-shadow: 2px 2px 5px #000000;
+    font-family: 'Anonymous Pro', monospace;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.site-intro h2 {
+    padding-left: 90px;
+    padding-top: 350px;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.site-intro h3 {
+    padding-left: 90px;
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.site-intro p {
+    width: 550px;
+    padding-left: 90px;
+    padding-top: 30px;
+    font-size: 24px;
+}
