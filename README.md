@@ -1,6 +1,40 @@
-# Getting Started with Create React App
+# Space Explorer - React App 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Home
+<img src="https://user-images.githubusercontent.com/106147027/228000041-e0649d37-da41-4fe5-8b3b-80541d0aff6d.png" width=600px height=800px />
+The Home page contains site description and info about the Solar System with a button leading to the Solar System Page. There are also details about the benefits you have when you sign in. 
+
+## Solar System
+<img src="https://user-images.githubusercontent.com/106147027/228004370-a6357778-052d-4afa-b23c-9136773b4294.png" width=600px height=1400px />
+The Solar System page contains information about the celestial bodies (photo and brief description) and a button leading to the details.
+
+<ul type="none"><li><h3>Solar System Details</h3>
+<img src="https://user-images.githubusercontent.com/106147027/228007747-98a5125f-eaf3-465f-b61d-3f71e3b84193.png" width=600px height=1200px />
+<p>The Solar System Details page contains information about the celestial body (photo and a detailed information).</p></li></ul>
+
+  
+## Famous Astronauts
+<img src="https://user-images.githubusercontent.com/106147027/228005452-d2d707e7-42c9-4bef-8230-5661795b0c39.png" width=600px height=800px />
+The Famous Astronauts page contains information about twelve famous astronauts (photo and brief description) and a button leading to the details.
+
+<ul type="none"><li><h3>Famous Astronauts Details</h3>
+<img src="https://user-images.githubusercontent.com/106147027/228008907-0ca1cc81-7dc7-4282-a2c5-40f89997cbbf.png" width=600px height=800px />
+<p>The Famous Astronauts Details page contains information about the astronaut (photo and more information).</p></li></ul>
+
+## Photo of the Day
+<img src="https://user-images.githubusercontent.com/106147027/228002821-d21895ca-b69e-4971-9fdf-2675f3d1d3b2.png" width=700px height=800px />
+The Photo of the Day page contains a picture and information about it. Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Made with the help of <a href="https://api.nasa.gov/" target="_blank">NASA's Open APIs</a>.
+
+## Posts
+  `Still in development...`
+  
+## Login
+<img src="https://user-images.githubusercontent.com/106147027/228001382-90293f56-ee09-437e-8193-dc6e256e6f1f.png" width=1000px height=800px />
+The Login page requires an email and a password in order to log in.
+
+## Register
+<img src="https://user-images.githubusercontent.com/106147027/228002415-b9b7d316-24b0-4653-8183-22ffa403aaca.png" width=1000px height=800px />
+The Register page requires an username, an email and a password in order to register.
 
 ## Available Scripts
 
@@ -14,57 +48,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+###  `cd server` -> `node server.js`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Runs the <a href="https://github.com/softuni-practice-server/softuni-practice-server" target="_blank">server</a> provided by <a href="https://about.softuni.bg/" target="_blank">SoftUni</a> in order for the app to run normally.
+ 
