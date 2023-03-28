@@ -12,6 +12,7 @@ import SolarSystem from './components/SolarSystem/SolarSystem.js';
 import PhotoOfTheDay from './components/PhotoOfTheDay/PhotoOfTheDay.js';
 import { AuthProvider } from './contexts/AuthContext';
 import { Routes, Route } from 'react-router-dom';
+import { RouteGuard } from './utils/RouteGuard';
 
 function App() {
     return (
@@ -33,7 +34,14 @@ function App() {
                         path='/photoOfTheDay'
                         element={<PhotoOfTheDay />}
                     ></Route>
-                    <Route path='/posts' element={<Posts />}></Route>
+                    <Route
+                        path='/posts'
+                        element={
+                            <RouteGuard>
+                                <Posts />
+                            </RouteGuard>
+                        }
+                    />
                     <Route path='/login' element={<Login />}></Route>
                     <Route path='/logout' element={<Logout />} />
                     <Route path='/register' element={<Register />}></Route>
