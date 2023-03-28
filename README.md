@@ -26,7 +26,7 @@ The Famous Astronauts page contains information about twelve famous astronauts (
 The Photo of the Day page contains a picture and information about it. Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Made with the help of <a href="https://api.nasa.gov/" target="_blank">NASA's Open APIs</a>.
 
 ## Posts
-  `Still in development...`
+Still in development... 
   
 ## Login
 <img src="https://user-images.githubusercontent.com/106147027/228001382-90293f56-ee09-437e-8193-dc6e256e6f1f.png" width=1000px height=800px />
