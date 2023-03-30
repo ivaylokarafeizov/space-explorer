@@ -20,7 +20,7 @@ export const AuthProvider = ({ children }) => {
 
             navigate('/');
         } catch (error) {
-            throw Error('Error:' + error.message);
+            alert('Error:' + error.message);
         }
     };
 
@@ -41,7 +41,7 @@ export const AuthProvider = ({ children }) => {
 
             navigate('/');
         } catch (error) {
-            throw Error('Error:' + error.message);
+            alert('Error:' + error.message);
         }
     };
 
