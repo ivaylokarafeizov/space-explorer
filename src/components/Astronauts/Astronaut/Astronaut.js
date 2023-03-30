@@ -1,7 +1,7 @@
 import styles from './Astronaut.module.css';
 import { Link } from 'react-router-dom';
 
-export default function Astronauts(astronaut) {
+export default function Astronaut(astronaut) {
     return (
         <section className={styles['card-component']} key={astronaut._id}>
             <div className={styles['card-image']}>
