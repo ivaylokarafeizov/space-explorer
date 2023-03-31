@@ -9,6 +9,9 @@
 .main {
     position: relative;
     height: 720px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .form {

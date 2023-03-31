@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useContext } from 'react';
 import { useForm } from '../../hooks/useForm';
 import { AuthContext } from '../../contexts/AuthContext';
+import eyeSpace from '../../assets/eye_space.jpg';
 
 export default function Register() {
     const { onRegisterSubmit } = useContext(AuthContext);
@@ -12,7 +13,10 @@ export default function Register() {
     );
 
     return (
-        <main className={styles['main']}>
+        <main
+            className={styles['main']}
+            style={{ backgroundImage: `url(${eyeSpace})` }}
+        >
             <form
                 className={styles['form']}
                 id='register'

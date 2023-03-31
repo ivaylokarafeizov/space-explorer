@@ -1,5 +1,6 @@
 import styles from './Login.module.css';
 import { Link } from 'react-router-dom';
+import eyeSpace from '../../assets/eye_space.jpg';
 import { useAuthContext } from '../../contexts/AuthContext';
 import { useForm } from '../../hooks/useForm';
 
@@ -19,7 +20,10 @@ export default function Login() {
     );
 
     return (
-        <main className={styles['main']}>
+        <main
+            className={styles['main']}
+            style={{ backgroundImage: `url(${eyeSpace})` }}
+        >
             <form
                 className={styles['form']}
                 id='login'
