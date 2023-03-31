@@ -13,13 +13,14 @@ import PhotoOfTheDay from './components/PhotoOfTheDay/PhotoOfTheDay.js';
 import { AuthProvider } from './contexts/AuthContext';
 import { Routes, Route } from 'react-router-dom';
 import { RouteGuard } from './utils/RouteGuard';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 function App() {
     return (
         <>
             <AuthProvider>
                 <Header />
-
+                <ScrollToTop />
                 <Routes>
                     <Route path='/' element={<Home />}></Route>
                     <Route
