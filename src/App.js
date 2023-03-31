@@ -12,7 +12,7 @@ import SolarSystem from './components/SolarSystem/SolarSystem.js';
 import PhotoOfTheDay from './components/PhotoOfTheDay/PhotoOfTheDay.js';
 import { AuthProvider } from './contexts/AuthContext';
 import { Routes, Route } from 'react-router-dom';
-import { RouteGuard } from './utils/RouteGuard';
+import { RouteGuard } from './components/RouteGuard/RouteGuard';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 function App() {
