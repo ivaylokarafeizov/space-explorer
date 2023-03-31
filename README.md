@@ -29,11 +29,11 @@ The Photo of the Day page contains a picture and information about it. Each day 
 Still in development... 
   
 ## Login
-<img src="https://user-images.githubusercontent.com/106147027/228001382-90293f56-ee09-437e-8193-dc6e256e6f1f.png" width=1000px height=800px />
+<img src="https://user-images.githubusercontent.com/106147027/229176497-1e44b732-2baf-437b-b904-bc191fb7c50e.png" width=1000px height=800px />
 The Login page requires an email and a password in order to log in.
 
 ## Register
-<img src="https://user-images.githubusercontent.com/106147027/228002415-b9b7d316-24b0-4653-8183-22ffa403aaca.png" width=1000px height=800px />
+<img src="https://user-images.githubusercontent.com/106147027/229176335-aa8bebe9-7152-4067-bf4a-0d53170bc957.png" width=1000px height=800px />
 The Register page requires an username, an email and a password in order to register.
 
 ## Available Scripts
