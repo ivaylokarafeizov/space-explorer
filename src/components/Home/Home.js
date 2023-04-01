@@ -5,7 +5,7 @@ import { useAuthContext } from '../../contexts/AuthContext';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
-    const userData = useAuthContext();
+    const { isAuthenticated } = useAuthContext();
 
     return (
         <main className={styles['cards']}>
@@ -28,7 +28,7 @@ export default function Home() {
                     </Link>
                 </div>
             </section>
-            {userData.isAuthenticated ? (
+            {isAuthenticated ? (
                 ''
             ) : (
                 <section className={styles['benefits']}>
