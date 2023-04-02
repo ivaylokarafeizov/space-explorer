@@ -1,16 +1,14 @@
 import styles from './PlanetDetails.module.css';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { getPlanetDetails } from '../../services/solarSystemService';
+import * as solarSystemService from '../../services/solarSystemService';
 
 export default function PlanetDetails() {
     const [planet, setPlanet] = useState([]);
     const { planetId } = useParams();
 
     useEffect(() => {
-        getPlanetDetails(planetId)
-            .then(setPlanet)
-            .catch((err) => console.log('Error' + err));
+        solarSystemService.getDetails(planetId).then(setPlanet);
     }, [planetId]);
 
     return (

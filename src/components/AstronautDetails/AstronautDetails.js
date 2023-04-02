@@ -1,16 +1,14 @@
 import styles from './AstronautDetails.module.css';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { getAstronautDetails } from '../../services/astronautsService';
+import * as astronautsService from '../../services/astronautsService';
 
 export default function AstronautDetails() {
     const [astronaut, setAstronaut] = useState([]);
     const { astronautId } = useParams();
 
     useEffect(() => {
-        getAstronautDetails(astronautId)
-            .then(setAstronaut)
-            .catch((err) => console.log('Error' + err));
+        astronautsService.getDetails(astronautId).then(setAstronaut);
     }, [astronautId]);
 
     return (

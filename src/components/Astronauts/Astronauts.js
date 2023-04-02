@@ -1,22 +1,22 @@
 import styles from './Astronauts.module.css';
 import Astronaut from './Astronaut/Astronaut.js';
 import { useState, useEffect } from 'react';
-import { getAll } from '../../services/astronautsService';
+import * as astronautsService from '../../services/astronautsService';
 
 export default function Astronauts() {
     const [astronauts, setAstronauts] = useState([]);
 
     useEffect(() => {
-        getAll()
-            .then(setAstronauts)
-            .catch((err) => console.log('Error' + err));
+        astronautsService.getAll().then(setAstronauts);
     }, []);
-
-    const cards = astronauts.map(Astronaut);
 
     return (
         <main className={styles['main']}>
-            <section className={styles['cards']}>{cards}</section>
+            <section className={styles['cards']}>
+                {astronauts.map((data) => (
+                    <Astronaut key={data._id} {...data} />
+                ))}
+            </section>
         </main>
     );
 }
