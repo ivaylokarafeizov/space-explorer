@@ -1,33 +1,16 @@
+import { requestFactory } from './requester';
+
 let baseUrl = 'http://localhost:3030/jsonstore/space/';
+const request = requestFactory();
 
 export const getAll = async () => {
-    const response = await fetch(baseUrl);
+    const result = await request.get(baseUrl + 'astronauts');
 
-    if (response.status === 204) {
-        return {};
-    }
-
-    const result = await response.json();
-
-    if (!response.ok) {
-        throw result;
-    }
-
-    return Object.values(result.astronauts);
+    return Object.values(result);
 };
 
-export const getAstronautDetails = async (astronautId) => {
-    const response = await fetch(baseUrl + `details/${astronautId}`);
-
-    if (response.status === 204) {
-        return {};
-    }
-
-    const result = await response.json();
-
-    if (!response.ok) {
-        throw result;
-    }
+export const getDetails = async (astronautId) => {
+    const result = await request.get(baseUrl + `details/${astronautId}`);
 
     return result;
 };

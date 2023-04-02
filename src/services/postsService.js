@@ -1,7 +1,7 @@
 let baseUrl = 'http://localhost:3030/jsonstore/space/';
 
 export const getAll = async () => {
-    const response = await fetch(baseUrl);
+    const response = await fetch(baseUrl + 'posts');
 
     if (response.status === 204) {
         return {};
@@ -13,5 +13,5 @@ export const getAll = async () => {
         throw result;
     }
 
-    return Object.values(result.posts);
+    return Object.values(result);
 };

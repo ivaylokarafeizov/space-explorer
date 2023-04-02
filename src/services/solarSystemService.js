@@ -1,33 +1,16 @@
+import { requestFactory } from './requester';
+
 let baseUrl = 'http://localhost:3030/jsonstore/space/';
+const request = requestFactory();
 
 export const getAll = async () => {
-    const response = await fetch(baseUrl);
+    const result = await request.get(baseUrl + 'solarSystem');
 
-    if (response.status === 204) {
-        return {};
-    }
-
-    const result = await response.json();
-
-    if (!response.ok) {
-        throw result;
-    }
-
-    return Object.values(result.solarSystem);
+    return Object.values(result);
 };
 
-export const getPlanetDetails = async (planetId) => {
-    const response = await fetch(baseUrl + `details/${planetId}`);
-
-    if (response.status === 204) {
-        return {};
-    }
-
-    const result = await response.json();
-
-    if (!response.ok) {
-        throw result;
-    }
+export const getDetails = async (planetId) => {
+    const result = await request.get(baseUrl + `details/${planetId}`);
 
     return result;
 };
