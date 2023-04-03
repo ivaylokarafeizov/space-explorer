@@ -16,6 +16,10 @@ export const useForm = (initialValues, onSubmitHandler) => {
     };
 
     const changeValues = (newValues) => {
+        if (typeof newValues !== 'object' || newValues === null) {
+            throw new Error('Invalid argument type. Expected an object.');
+        }
+
         setValues(newValues);
     };
 

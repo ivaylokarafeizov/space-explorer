@@ -1,17 +1,37 @@
-let baseUrl = 'http://localhost:3030/jsonstore/space/';
+import { requestFactory } from './requester';
 
-export const getAll = async () => {
-    const response = await fetch(baseUrl + 'posts');
+let baseUrl = 'http://localhost:3030/jsonstore/space/posts';
 
-    if (response.status === 204) {
-        return {};
-    }
+export const postsServiceFactory = (token) => {
+    const request = requestFactory(token);
 
-    const result = await response.json();
+    const getAll = async () => {
+        const result = await request.get(baseUrl);
 
-    if (!response.ok) {
-        throw result;
-    }
+        return Object.values(result);
+    };
 
-    return Object.values(result);
+    const create = async (postData) => {
+        const result = await request.post(baseUrl, postData);
+
+        return result;
+    };
+
+    const getPost = async (postId) => {
+        const result = await request.get(`${baseUrl}/${postId}`);
+
+        return result;
+    };
+
+    const edit = (postId, data) => request.put(`${baseUrl}/${postId}`, data);
+
+    const deletePost = (postId) => request.delete(`${baseUrl}/${postId}`);
+
+    return {
+        getAll,
+        getPost,
+        create,
+        edit,
+        delete: deletePost,
+    };
 };

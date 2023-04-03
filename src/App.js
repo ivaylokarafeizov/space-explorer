@@ -1,6 +1,8 @@
 import Footer from './components/Footer/Footer.js';
 import Home from './components/Home/Home.js';
 import Header from './components/Header/Header.js';
+import { CreatePost } from './components/CreatePost/CreatePost.js';
+import { EditPost } from './components/EditPost/EditPost.js';
 import Posts from './components/Posts/Posts.js';
 import Login from './components/Login/Login.js';
 import { Logout } from './components/Logout/Logout';
@@ -11,51 +13,59 @@ import Astronauts from './components/Astronauts/Astronauts.js';
 import SolarSystem from './components/SolarSystem/SolarSystem.js';
 import PhotoOfTheDay from './components/PhotoOfTheDay/PhotoOfTheDay.js';
 import { AuthProvider } from './contexts/AuthContext';
+import { PostsProvider } from './contexts/PostsContext';
 import { Routes, Route } from 'react-router-dom';
-import { RouteGuard } from './components/RouteGuard/RouteGuard';
-import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import { RouteGuard } from './components/common/RouteGuard.js';
+import { PostOwner } from './components/common/PostOwner.js';
+import ScrollToTop from './components/common/ScrollToTop';
 
 function App() {
     return (
         <>
             <AuthProvider>
-                <Header />
-                <ScrollToTop />
-                <Routes>
-                    <Route path='/' element={<Home />}></Route>
-                    <Route
-                        path='/solarSystem'
-                        element={<SolarSystem />}
-                    ></Route>
-                    <Route
-                        path='/famousAstronauts'
-                        element={<Astronauts />}
-                    ></Route>
-                    <Route
-                        path='/photoOfTheDay'
-                        element={<PhotoOfTheDay />}
-                    ></Route>
-                    <Route
-                        path='/posts'
-                        element={
-                            <RouteGuard>
-                                <Posts />
-                            </RouteGuard>
-                        }
-                    />
-                    <Route path='/login' element={<Login />}></Route>
-                    <Route path='/logout' element={<Logout />} />
-                    <Route path='/register' element={<Register />}></Route>
-                    <Route
-                        path='/details/astronauts/:astronautId'
-                        element={<AstronautDetails />}
-                    ></Route>
-                    <Route
-                        path='/details/planets/:planetId'
-                        element={<PlanetDetails />}
-                    ></Route>
-                </Routes>
-                <Footer />
+                <PostsProvider>
+                    <Header />
+                    <ScrollToTop />
+                    <Routes>
+                        <Route path='/' element={<Home />}></Route>
+                        <Route
+                            path='/solarSystem'
+                            element={<SolarSystem />}
+                        ></Route>
+                        <Route
+                            path='/famousAstronauts'
+                            element={<Astronauts />}
+                        ></Route>
+                        <Route
+                            path='/photoOfTheDay'
+                            element={<PhotoOfTheDay />}
+                        ></Route>
+                        <Route element={<RouteGuard />}>
+                            <Route path='/create' element={<CreatePost />} />
+                            <Route path='/edit/:id' element={<EditPost />} />
+                            <Route path='/logout' element={<Logout />} />
+                            <Route
+                                path='/posts'
+                                element={
+                                    <RouteGuard>
+                                        <Posts />
+                                    </RouteGuard>
+                                }
+                            />
+                        </Route>
+                        <Route path='/login' element={<Login />}></Route>
+                        <Route path='/register' element={<Register />}></Route>
+                        <Route
+                            path='/details/astronauts/:astronautId'
+                            element={<AstronautDetails />}
+                        ></Route>
+                        <Route
+                            path='/details/planets/:planetId'
+                            element={<PlanetDetails />}
+                        ></Route>
+                    </Routes>
+                    <Footer />
+                </PostsProvider>
             </AuthProvider>
         </>
     );

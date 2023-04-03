@@ -372,5 +372,34 @@
             "nationality": "British",
             "information": "Tim Peake was the first British ESA astronaut to visit the International Space Station, launching on a Soyuz rocket on 15 December 2015 with crewmates Tim Kopra and Yuri Malenchenko. His Principia mission was an eventful and busy six months in space."
         }
+    },
+    "posts": {
+        "512da504-505b-4aca-b9f0-77f302dd29a8": {
+            "name": "Bruce Wayne",
+            "location": "Washington DC, USA",
+            "title": "How Many Stars Are There in the Sky?",
+            "imageUrl": "https://cdn.theatlantic.com/assets/media/img/posts/shutterstock_140731432.jpg",
+            "_ownerId": "35c62d76-8152-4626-8712-eeb96381bea8",
+            "_id": "512da504-505b-4aca-b9f0-77f302dd29a8",
+            "likes": "5234"
+        },
+        "9dba1699-8411-4a3f-8682-bf9821ee43c6": {
+            "name": "Clark Kent",
+            "location": "London, UK",
+            "title": "The Moon from Earth",
+            "imageUrl": "https://serious-science.org/img/2017/01/moon.jpg",
+            "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a",
+            "_id": "9dba1699-8411-4a3f-8682-bf9821ee43c6",
+            "likes": "1532"
+        },
+        "839747a7-3bcb-4fc9-82d4-b4e577708ae3": {
+            "name": "Lex Luthor",
+            "location": "Washington DC, USA",
+            "title": "The Milky Way from Earth",
+            "imageUrl": "https://i.natgeofe.com/n/3a57e30f-6b0a-444c-9b20-8bf481ee1793/01-milky-way-NationalGeographic_1959323.jpg?w=636&h=424",
+            "_ownerId": "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
+            "_id": "839747a7-3bcb-4fc9-82d4-b4e577708ae3",
+            "likes": "225"
+        }
     }
 }
