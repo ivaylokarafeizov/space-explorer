@@ -1,16 +1,16 @@
+import { useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import { usePostsContext } from '../../contexts/PostsContext';
 import { useForm } from '../../hooks/useForm';
-import { useParams } from 'react-router-dom';
-import { useEffect } from 'react';
-import styles from './EditPost.module.css';
-import eyeSpace from '../../assets/eye_space.jpg';
-import { postsServiceFactory } from '../../services/postsService';
 import { useService } from '../../hooks/useService';
+import { postsServiceFactory } from '../../services/postsService';
+import eyeSpace from '../../assets/eye_space.jpg';
+import styles from './EditPost.module.css';
 
 export const EditPost = () => {
+    const { onPostEditSubmit } = usePostsContext();
     const { postId } = useParams();
     const postsService = useService(postsServiceFactory);
-    const { onPostEditSubmit } = usePostsContext();
     const { values, changeHandler, onSubmit, changeValues } = useForm(
         {
             name: '',
@@ -24,7 +24,6 @@ export const EditPost = () => {
     useEffect(() => {
         postsService.getPost(postId).then((result) => {
             changeValues(result);
-            console.log(result);
         });
     }, [postId]);
 
@@ -40,56 +39,50 @@ export const EditPost = () => {
                 method='post'
                 onSubmit={onSubmit}
             >
-                <h3>Edit Post</h3>
-
+                <h3>Edit Game</h3>
                 <label htmlFor='name' className={styles['label']}>
                     Name:
                 </label>
                 <input
-                    value={values.name}
-                    onChange={changeHandler}
                     type='text'
                     id='name'
                     name='name'
-                    placeholder='Enter your first and last name...'
+                    value={values.name}
+                    onChange={changeHandler}
                 />
 
                 <label htmlFor='location' className={styles['label']}>
                     Location:
                 </label>
                 <input
-                    value={values.location}
-                    onChange={changeHandler}
                     type='text'
                     id='location'
                     name='location'
-                    placeholder='Enter your location...'
+                    value={values.location}
+                    onChange={changeHandler}
                 />
 
                 <label htmlFor='title' className={styles['label']}>
                     Title:
                 </label>
                 <input
-                    value={values.title}
-                    onChange={changeHandler}
                     type='text'
                     id='title'
                     name='title'
-                    placeholder='Enter a title...'
+                    value={values.title}
+                    onChange={changeHandler}
                 />
 
                 <label htmlFor='imageUrl' className={styles['label']}>
                     Image:
                 </label>
                 <input
-                    value={values.imageUrl}
-                    onChange={changeHandler}
                     type='text'
                     id='imageUrl'
                     name='imageUrl'
-                    placeholder='Upload a photo...'
+                    value={values.imageUrl}
+                    onChange={changeHandler}
                 />
-
                 <button type='submit' value='Edit Post'>
                     Edit Post
                 </button>

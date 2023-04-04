@@ -29,7 +29,7 @@ export default function Post(post) {
             navigate('/');
         }
     };
-
+    console.log(post._id);
     return (
         <section className={styles['card-component']} key={post._id}>
             <div className={styles['card-header']}>
