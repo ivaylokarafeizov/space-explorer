@@ -42,7 +42,10 @@ function App() {
                         ></Route>
                         <Route element={<RouteGuard />}>
                             <Route path='/create' element={<CreatePost />} />
-                            <Route path='/edit/:id' element={<EditPost />} />
+                            <Route
+                                path='/edit/:postId'
+                                element={<EditPost />}
+                            />
                             <Route path='/logout' element={<Logout />} />
                             <Route
                                 path='/posts'
