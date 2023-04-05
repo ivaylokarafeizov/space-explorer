@@ -17,6 +17,7 @@ import { PostsProvider } from './contexts/PostsContext';
 import { Routes, Route } from 'react-router-dom';
 import { RouteGuard } from './components/common/RouteGuard.js';
 import { PostOwner } from './components/common/PostOwner.js';
+import Comments from './components/Comments/Comments.js';
 import ScrollToTop from './components/common/ScrollToTop';
 
 function App() {
@@ -44,7 +45,11 @@ function App() {
                             <Route path='/create' element={<CreatePost />} />
                             <Route
                                 path='/edit/:postId'
-                                element={<EditPost />}
+                                element={
+                                    <PostOwner>
+                                        <EditPost />
+                                    </PostOwner>
+                                }
                             />
                             <Route path='/logout' element={<Logout />} />
                             <Route
@@ -54,6 +59,10 @@ function App() {
                                         <Posts />
                                     </RouteGuard>
                                 }
+                            />
+                            <Route
+                                path='/comments/:postId'
+                                element={<Comments />}
                             />
                         </Route>
                         <Route path='/login' element={<Login />}></Route>

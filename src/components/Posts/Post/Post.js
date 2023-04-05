@@ -1,10 +1,12 @@
 import styles from './Post.module.css';
 import { Link, useNavigate } from 'react-router-dom';
 import ProfilePicture from '../ProfilePicture/ProfilePicture.js';
-import { BiCommentAdd, BiLike } from 'react-icons/bi';
+import { AddComment } from '../AddComment/AddComment';
+import { BiLike } from 'react-icons/bi';
 import { AiOutlineEdit, AiOutlineDelete } from 'react-icons/ai';
 import { usePostsContext } from '../../../contexts/PostsContext';
 import { postsServiceFactory } from '../../../services/postsService';
+import * as commentService from '../../../services/commentService';
 import { useService } from '../../../hooks/useService';
 
 export default function Post(post) {
@@ -14,6 +16,11 @@ export default function Post(post) {
     const isOwner =
         JSON.parse(localStorage.getItem('auth'))._id === post._ownerId;
     const name = post.name;
+    const postId = post._id;
+
+    const onCommentSubmit = async (values) => {
+        await commentService.create(postId, values);
+    };
 
     const onDeleteClick = async () => {
         // eslint-disable-next-line no-restricted-globals
@@ -29,7 +36,7 @@ export default function Post(post) {
             navigate('/');
         }
     };
-    console.log(post._id);
+
     return (
         <section className={styles['card-component']} key={post._id}>
             <div className={styles['card-header']}>
@@ -70,7 +77,10 @@ export default function Post(post) {
             <div className={styles['card-actions']}>
                 <div>{post.likes} Likes</div>
                 <div className={styles['btn-div']}>
-                    <Link to='/' className={styles['links']}>
+                    <Link
+                        to={`/comments/${postId}`}
+                        className={styles['links']}
+                    >
                         See Comments
                     </Link>
                 </div>
@@ -80,12 +90,9 @@ export default function Post(post) {
                 <div className={styles['btn-div']}>
                     <BiLike /> Like
                 </div>
-                <div className={styles['btn-div']}>
-                    <Link to='/' className={styles['links']}>
-                        <BiCommentAdd /> Comment
-                    </Link>
-                </div>
             </div>
+            <hr />
+            <AddComment onCommentSubmit={onCommentSubmit} />
         </section>
     );
 }

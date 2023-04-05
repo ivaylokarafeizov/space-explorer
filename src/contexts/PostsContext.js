@@ -60,11 +60,16 @@ export const PostsProvider = ({ children }) => {
         setPosts((state) => state.filter((post) => post._id !== postId));
     };
 
+    const getPost = (postId) => {
+        return posts.find((post) => post._id === postId);
+    };
+
     const contextValues = {
         posts,
         onCreatePostSubmit,
         onPostEditSubmit,
         deletePost,
+        getPost,
     };
 
     return (

@@ -39,7 +39,7 @@ export const EditPost = () => {
                 method='post'
                 onSubmit={onSubmit}
             >
-                <h3>Edit Game</h3>
+                <h3>Edit Post</h3>
                 <label htmlFor='name' className={styles['label']}>
                     Name:
                 </label>

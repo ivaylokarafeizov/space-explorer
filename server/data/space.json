@@ -380,8 +380,7 @@
             "title": "How Many Stars Are There in the Sky?",
             "imageUrl": "https://cdn.theatlantic.com/assets/media/img/posts/shutterstock_140731432.jpg",
             "_ownerId": "35c62d76-8152-4626-8712-eeb96381bea8",
-            "_id": "512da504-505b-4aca-b9f0-77f302dd29a8",
-            "likes": "5234"
+            "_id": "512da504-505b-4aca-b9f0-77f302dd29a8"
         },
         "9dba1699-8411-4a3f-8682-bf9821ee43c6": {
             "name": "Clark Kent",
@@ -389,8 +388,7 @@
             "title": "The Moon from Earth",
             "imageUrl": "https://serious-science.org/img/2017/01/moon.jpg",
             "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a",
-            "_id": "9dba1699-8411-4a3f-8682-bf9821ee43c6",
-            "likes": "1532"
+            "_id": "9dba1699-8411-4a3f-8682-bf9821ee43c6"
         },
         "839747a7-3bcb-4fc9-82d4-b4e577708ae3": {
             "name": "Lex Luthor",
@@ -398,8 +396,51 @@
             "title": "The Milky Way from Earth",
             "imageUrl": "https://i.natgeofe.com/n/3a57e30f-6b0a-444c-9b20-8bf481ee1793/01-milky-way-NationalGeographic_1959323.jpg?w=636&h=424",
             "_ownerId": "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
-            "_id": "839747a7-3bcb-4fc9-82d4-b4e577708ae3",
-            "likes": "225"
+            "_id": "839747a7-3bcb-4fc9-82d4-b4e577708ae3"
+        }
+    },
+    "likes": {
+        "512da504-505b-4aca-b9f0-77f302dd29a8": {
+            "likes": 5234
+        },
+        "9dba1699-8411-4a3f-8682-bf9821ee43c6": {
+            "likes": 1532
+        },
+        "839747a7-3bcb-4fc9-82d4-b4e577708ae3": {
+            "likes": 225
+        }
+    },
+    "comments": {
+        "839747a7-3bcb-4fc9-82d4-b4e577708ae3": {
+            "49023cac-f336-4989-8c74-d8bd84219327": {
+                "name": "Peter Parker",
+                "comment": "Nice",
+                "_id": "49023cac-f336-4989-8c74-d8bd84219327"
+            },
+            "aee1fb0a-c2c5-4fc9-a928-4e189951e6d1": {
+                "name": "Alan Walker",
+                "comment": "The best",
+                "_id": "aee1fb0a-c2c5-4fc9-a928-4e189951e6d1"
+            },
+            "010aa37c-44b7-40e3-8c87-1e9172a2cd2c": {
+                "name": "Louis Lane",
+                "comment": "Nice view",
+                "_id": "010aa37c-44b7-40e3-8c87-1e9172a2cd2c"
+            }
+        },
+        "512da504-505b-4aca-b9f0-77f302dd29a8": {
+            "b865e2b0-0fd4-4c46-b2ab-26fb0bd98c63": {
+                "name": "Steve Rogers",
+                "comment": "Very beautiful",
+                "_id": "b865e2b0-0fd4-4c46-b2ab-26fb0bd98c63"
+            }
+        },
+        "9dba1699-8411-4a3f-8682-bf9821ee43c6": {
+            "6bf3ca50-52f0-4899-a653-51e668bcf7b6": {
+                "name": "Jason Todd",
+                "comment": "Cool",
+                "_id": "6bf3ca50-52f0-4899-a653-51e668bcf7b6"
+            }
         }
     }
 }
