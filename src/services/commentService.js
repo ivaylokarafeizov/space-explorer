@@ -9,13 +9,14 @@ export const getAll = async (postId) => {
     return Object.values(result);
 };
 
-export const create = async (comment, postId) => {
-    if (!comment) {
-        alert('Please enter a comment!');
+export const create = async (postId, data) => {
+    console.log(data);
+    if (!data.comment || !data.name) {
+        alert('All fields are required!');
         return;
     }
 
-    const result = await request.post(baseUrl, { comment, postId });
+    const result = await request.post(`${baseUrl}/${postId}`, data);
 
     return result;
 };

@@ -11,6 +11,7 @@ export const CreatePost = () => {
             location: '',
             title: '',
             imageUrl: '',
+            _ownerId: JSON.parse(localStorage.getItem('auth'))._id,
         },
         onCreatePostSubmit
     );

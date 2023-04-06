@@ -1,0 +1,164 @@
+.main {
+    margin-top: 100px;
+    padding-bottom: 30px;
+    height: 100%;
+}
+
+.back {
+    border-radius: 40px;
+    background-color: white;
+    position: absolute;
+    top: 120px;
+    left: 300px;
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    transition: ease-in 300ms;
+}
+
+.back:hover {
+    background-color: black;
+    color: white;
+}
+
+.card {
+    padding: 0 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card-component {
+    position: relative;
+    background-color: #ffffff;
+    height: auto;
+    width: 600px;
+    border-radius: 20px;
+}
+
+.btn-div {
+    display: flex;
+    gap: 10px;
+    bottom: 5px;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-div:hover {
+    color: #a7c3d9;
+}
+
+.card-image img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.card-header {
+    position: relative;
+    gap: 10px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.user-photo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.user-info p {
+    padding-top: 5px;
+}
+
+.user-info {
+    padding-top: 5px;
+}
+
+.card-desc {
+    padding: 0 20px 5px 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.user-actions {
+    top: 20px;
+    right: 30px;
+    position: absolute;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    font-size: 25px;
+}
+
+.card-actions {
+    text-align: start;
+    padding: 10px 50px;
+    font-size: 20px;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover {
+    color: #a7c3d9;
+}
+
+.delete:hover {
+    color: red;
+}
+
+.comments-section {
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    padding: 0 40px;
+    gap: 40px;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.comment img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.comment .name {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.comment .message {
+    background-color: rgb(228, 227, 227);
+    border-radius: 40px;
+    padding: 10px 30px;
+    flex: 1;
+}
+
+.comment .text {
+    background-color: rgb(228, 227, 227);
+    border-radius: 40px;
+    padding-top: 5px;
+    flex: 1;
+}

@@ -1,4 +1,4 @@
-import { useForm } from '../../../hooks/useForm';
+import { useForm } from '../../hooks/useForm';
 import styles from './AddComment.module.css';
 
 export const AddComment = ({ onCommentSubmit }) => {
@@ -10,7 +10,6 @@ export const AddComment = ({ onCommentSubmit }) => {
         },
         onCommentSubmit
     );
-
     return (
         <div className={styles['create-comment']}>
             <form

@@ -1,5 +1,5 @@
-import { getRandomColor } from '../../../utils/getRandomColor';
-import { createImageFromInitials } from '../../../utils/createImageFromInitials';
+import { getRandomColor } from '../../utils/getRandomColor';
+import { createImageFromInitials } from '../../utils/createImageFromInitials';
 
 export default function ProfilePicture({ name }) {
     return (
