@@ -117,6 +117,7 @@ export default function PostDetails() {
                     <div className={styles['card-image']}>
                         <img src={post.imageUrl} alt={post.title} />
                     </div>
+                    <AddComment onCommentSubmit={onCommentSubmit} />
                     <hr />
                     <section className={styles['comments-section']}>
                         <div className={styles['comments']}>
@@ -192,8 +193,6 @@ export default function PostDetails() {
                             )}
                         </div>
                     </section>
-                    <hr />
-                    <AddComment onCommentSubmit={onCommentSubmit} />
                 </section>
             </section>
         </main>
