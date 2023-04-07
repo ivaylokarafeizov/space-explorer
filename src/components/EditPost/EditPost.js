@@ -11,6 +11,7 @@ export const EditPost = () => {
     const { onPostEditSubmit } = usePostsContext();
     const { postId } = useParams();
     const postsService = useService(postsServiceFactory);
+
     const { values, changeHandler, onSubmit, changeValues } = useForm(
         {
             name: '',
@@ -25,6 +26,8 @@ export const EditPost = () => {
         postsService.getPost(postId).then((result) => {
             changeValues(result);
         });
+
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [postId]);
 
     return (

@@ -19,6 +19,7 @@ import { Routes, Route } from 'react-router-dom';
 import { RouteGuard } from './components/common/RouteGuard.js';
 import { PostOwner } from './components/common/PostOwner.js';
 import ScrollToTop from './components/common/ScrollToTop';
+import { EditComment } from './components/EditComment/EditComment.js';
 
 function App() {
     return (
@@ -43,6 +44,10 @@ function App() {
                         ></Route>
                         <Route element={<RouteGuard />}>
                             <Route path='/create' element={<CreatePost />} />
+                            <Route
+                                path='/edit/:postId/:commentId'
+                                element={<EditComment />}
+                            />
                             <Route
                                 path='/details/:postId'
                                 element={<PostDetails />}

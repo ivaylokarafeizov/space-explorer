@@ -2,8 +2,10 @@ import { usePostsContext } from '../../contexts/PostsContext';
 import { useForm } from '../../hooks/useForm';
 import styles from './CreatePost.module.css';
 import eyeSpace from '../../assets/eye_space.jpg';
+import { v4 as uuid } from 'uuid';
 
 export const CreatePost = () => {
+    const _id = uuid();
     const { onCreatePostSubmit } = usePostsContext();
     const { values, changeHandler, onSubmit } = useForm(
         {
@@ -12,6 +14,7 @@ export const CreatePost = () => {
             title: '',
             imageUrl: '',
             _ownerId: JSON.parse(localStorage.getItem('auth'))._id,
+            _id,
         },
         onCreatePostSubmit
     );

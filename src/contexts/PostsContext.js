@@ -30,7 +30,7 @@ export const PostsProvider = ({ children }) => {
 
             setPosts((state) => [...state, newPost]);
 
-            navigate('/posts');
+            navigate(`/posts`);
         } catch (error) {
             alert('Error: ' + error.message);
         }
@@ -50,14 +50,10 @@ export const PostsProvider = ({ children }) => {
                 state.map((x) => (x._id === values._id ? result : x))
             );
 
-            navigate(`/posts`);
+            navigate(`/details/${values._id}`);
         } catch (error) {
             alert('Error: ' + error.message);
         }
-    };
-
-    const deletePost = (postId) => {
-        setPosts((state) => state.filter((post) => post._id !== postId));
     };
 
     const getPost = (postId) => {
@@ -68,7 +64,6 @@ export const PostsProvider = ({ children }) => {
         posts,
         onCreatePostSubmit,
         onPostEditSubmit,
-        deletePost,
         getPost,
     };
 

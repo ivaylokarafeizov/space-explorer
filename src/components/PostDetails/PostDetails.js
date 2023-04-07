@@ -5,7 +5,6 @@ import ProfilePicture from '../ProfilePicture/ProfilePicture';
 import { AddComment } from '../AddComment/AddComment';
 import { AiOutlineEdit, AiOutlineDelete } from 'react-icons/ai';
 import { IoArrowBack } from 'react-icons/io5';
-import { usePostsContext } from '../../contexts/PostsContext';
 import { postsServiceFactory } from '../../services/postsService';
 import { useService } from '../../hooks/useService';
 import * as commentService from '../../services/commentService';
@@ -14,7 +13,6 @@ export default function PostDetails() {
     const [post, setPosts] = useState([]);
     const [comments, setComments] = useState([]);
     const navigate = useNavigate();
-    const { deletePost } = usePostsContext();
     const postsService = useService(postsServiceFactory);
     const isOwner =
         JSON.parse(localStorage.getItem('auth'))._id === post._ownerId;
@@ -38,12 +36,13 @@ export default function PostDetails() {
     };
 
     useEffect(() => {
-        postsService.getPost(postId).then(setPosts);
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [postId]);
-
-    useEffect(() => {
-        commentService.getAll(postId).then(setComments);
+        Promise.all([
+            postsService.getPost(postId),
+            commentService.getAll(postId),
+        ]).then(([posts, comments]) => {
+            setPosts(posts);
+            setComments(comments);
+        }); // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [postId]);
 
     const onDeleteClick = async () => {
@@ -55,9 +54,22 @@ export default function PostDetails() {
         if (result) {
             await postsService.delete(post._id);
 
-            deletePost(post._id);
-
             navigate('/posts');
+        }
+    };
+
+    const onDeleteCommentClick = async (commentId) => {
+        // eslint-disable-next-line no-restricted-globals
+        const result = confirm(`Are you sure you want to delete this comment?`);
+
+        if (result) {
+            await commentService.deleteComment(postId, commentId);
+
+            setComments((state) =>
+                state.filter((comment) => comment._id !== commentId)
+            );
+
+            navigate('/details/' + post._id);
         }
     };
 
@@ -108,26 +120,76 @@ export default function PostDetails() {
                     <hr />
                     <section className={styles['comments-section']}>
                         <div className={styles['comments']}>
-                            {comments.map((comment) => {
-                                const name = comment.name;
+                            {comments.length !== 0 ? (
+                                comments.map((comment) => {
+                                    const name = comment.name;
 
-                                return (
-                                    <div
-                                        className={styles['comment']}
-                                        key={comment._id}
-                                    >
-                                        <ProfilePicture name={name} />
-                                        <div className={styles['message']}>
-                                            <div className={styles['name']}>
-                                                {name}
+                                    return (
+                                        <div
+                                            className={styles['comment']}
+                                            key={comment._id}
+                                        >
+                                            <ProfilePicture name={name} />
+                                            <div className={styles['message']}>
+                                                <div className={styles['name']}>
+                                                    {name}
+                                                </div>
+                                                <div className={styles['text']}>
+                                                    {comment.comment}
+                                                </div>
                                             </div>
-                                            <div className={styles['text']}>
-                                                {comment.comment}
-                                            </div>
+                                            {JSON.parse(
+                                                localStorage.getItem('auth')
+                                            )._id === comment._ownerId ? (
+                                                <div
+                                                    className={
+                                                        styles[
+                                                            'comment-actions'
+                                                        ]
+                                                    }
+                                                >
+                                                    <div
+                                                        className={
+                                                            styles['btn-div']
+                                                        }
+                                                    >
+                                                        <Link
+                                                            to={`/edit/${post._id}/${comment._id}`}
+                                                            className={
+                                                                styles['links']
+                                                            }
+                                                        >
+                                                            <AiOutlineEdit />
+                                                        </Link>
+                                                    </div>
+                                                    <div
+                                                        className={
+                                                            styles['btn-div']
+                                                        }
+                                                        onClick={() =>
+                                                            onDeleteCommentClick(
+                                                                comment._id
+                                                            )
+                                                        }
+                                                    >
+                                                        <AiOutlineDelete
+                                                            className={
+                                                                styles['delete']
+                                                            }
+                                                        />
+                                                    </div>
+                                                </div>
+                                            ) : (
+                                                ''
+                                            )}
                                         </div>
-                                    </div>
-                                );
-                            })}
+                                    );
+                                })
+                            ) : (
+                                <h3 className={styles['comments-h3']}>
+                                    No comments yet...
+                                </h3>
+                            )}
                         </div>
                     </section>
                     <hr />
