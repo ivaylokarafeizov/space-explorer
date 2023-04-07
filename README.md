@@ -26,7 +26,12 @@ The Famous Astronauts page contains information about twelve famous astronauts (
 The Photo of the Day page contains a picture and information about it. Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Made with the help of <a href="https://api.nasa.gov/" target="_blank">NASA's Open APIs</a>.
 
 ## Posts
-Still in development... 
+<img src="https://user-images.githubusercontent.com/106147027/230632029-57da3554-c5fc-4d1e-85af-514bca2c226e.png" width=600px height=800px />
+The Posts Page contains a create post button and all the created posts with a details button, redirecting to the post details.
+
+<ul type="none"><li><h3>Post Details</h3>
+<img src="https://user-images.githubusercontent.com/106147027/230632526-a40b6caa-938a-4888-8a57-40193b6bf0a8.png" width=600px height=600px />
+<p>The Post Details page contains the post with edit and delete buttons, and a comment section in which you can add, delete or edit a comment.</p></li></ul>
   
 ## Login
 <img src="https://user-images.githubusercontent.com/106147027/229176497-1e44b732-2baf-437b-b904-bc191fb7c50e.png" width=1000px height=800px />
