@@ -1,15 +1,19 @@
 import { useForm } from '../../hooks/useForm';
 import styles from './AddComment.module.css';
+import { v4 as uuid } from 'uuid';
 
 export const AddComment = ({ onCommentSubmit }) => {
+    const _id = uuid();
     const { values, changeHandler, onSubmit } = useForm(
         {
             name: '',
             comment: '',
-            ownerId: JSON.parse(localStorage.getItem('auth'))._id,
+            _ownerId: JSON.parse(localStorage.getItem('auth'))._id,
+            _id,
         },
         onCommentSubmit
     );
+
     return (
         <div className={styles['create-comment']}>
             <form
