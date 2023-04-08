@@ -29,19 +29,16 @@ function App() {
                     <Header />
                     <ScrollToTop />
                     <Routes>
-                        <Route path='/' element={<Home />}></Route>
-                        <Route
-                            path='/solarSystem'
-                            element={<SolarSystem />}
-                        ></Route>
+                        <Route path='/' element={<Home />} />
+                        <Route path='/solarSystem' element={<SolarSystem />} />
                         <Route
                             path='/famousAstronauts'
                             element={<Astronauts />}
-                        ></Route>
+                        />
                         <Route
                             path='/photoOfTheDay'
                             element={<PhotoOfTheDay />}
-                        ></Route>
+                        />
                         <Route element={<RouteGuard />}>
                             <Route path='/create' element={<CreatePost />} />
                             <Route
@@ -70,16 +67,16 @@ function App() {
                                 }
                             />
                         </Route>
-                        <Route path='/login' element={<Login />}></Route>
-                        <Route path='/register' element={<Register />}></Route>
+                        <Route path='/login' element={<Login />} />
+                        <Route path='/register' element={<Register />} />
                         <Route
                             path='/details/astronauts/:astronautId'
                             element={<AstronautDetails />}
-                        ></Route>
+                        />
                         <Route
                             path='/details/planets/:planetId'
                             element={<PlanetDetails />}
-                        ></Route>
+                        />
                     </Routes>
                     <Footer />
                 </PostsProvider>
