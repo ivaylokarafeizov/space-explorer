@@ -42,7 +42,7 @@ function App() {
                         <Route element={<RouteGuard />}>
                             <Route path='/create' element={<CreatePost />} />
                             <Route
-                                path='/edit/:postId/:commentId'
+                                path='/edit/:potId/:commentId'
                                 element={<EditComment />}
                             />
                             <Route
